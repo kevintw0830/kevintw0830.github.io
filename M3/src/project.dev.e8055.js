@@ -183,17 +183,37 @@ window.__require = function e(t, n, r) {
       value: true
     });
     var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-    var NewClass = function(_super) {
-      __extends(NewClass, _super);
-      function NewClass() {
+    var AnimManager = function(_super) {
+      __extends(AnimManager, _super);
+      function AnimManager() {
         return null !== _super && _super.apply(this, arguments) || this;
       }
-      NewClass.prototype.onLoad = function() {};
-      NewClass.prototype.start = function() {};
-      NewClass = __decorate([ ccclass ], NewClass);
-      return NewClass;
+      AnimManager.runScore = function(label, startValue, targeValue, runTime) {
+        var showTime = runTime;
+        var currentValue = startValue;
+        var addValue = (targeValue - startValue) / runTime * cc.director.getDeltaTime();
+        var callback = function(dt) {
+          showTime -= dt;
+          if (addValue >= 0) if (showTime <= 0 || currentValue >= targeValue) {
+            label.string = targeValue + "";
+            this.unschedule(callback);
+          } else {
+            currentValue = Math.min(currentValue + addValue, targeValue);
+            label.string = Math.floor(currentValue) + "";
+          } else if (showTime <= 0 || currentValue <= targeValue) {
+            label.string = targeValue + "";
+            this.unschedule(callback);
+          } else {
+            currentValue = Math.min(currentValue + addValue, targeValue);
+            label.string = Math.floor(currentValue) + "";
+          }
+        };
+        label.schedule(callback, 0);
+      };
+      AnimManager = __decorate([ ccclass ], AnimManager);
+      return AnimManager;
     }(cc.Component);
-    exports.default = NewClass;
+    exports.default = AnimManager;
     cc._RF.pop();
   }, {} ],
   BgElement: [ function(require, module, exports) {
@@ -1120,6 +1140,7 @@ window.__require = function e(t, n, r) {
     var ResMgr_1 = require("./ResMgr");
     var GameLogic_1 = require("./GameLogic");
     var AdManager_1 = require("./Tool/AdManager");
+    var AnimManager_1 = require("./AnimManager");
     var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
     var Game = function(_super) {
       __extends(Game, _super);
@@ -1193,7 +1214,7 @@ window.__require = function e(t, n, r) {
         };
         var this_1 = this;
         for (var i = 0; i < this.row; i++) _loop_1(i);
-        this.StepLabel.string = GameData_1.GameData.currStep + "";
+        this.updateUI();
       };
       Game.prototype.addEvent = function() {
         this.restartBtn.node.on(cc.Node.EventType.TOUCH_END, this.restart, this);
@@ -1291,7 +1312,8 @@ window.__require = function e(t, n, r) {
         this.updateScore();
       };
       Game.prototype.updateScore = function() {
-        this.ScoreLabel.string = GameData_1.GameData.score + "";
+        var old = Number(this.ScoreLabel.string);
+        AnimManager_1.default.runScore(this.ScoreLabel, old, GameData_1.GameData.score, .25);
       };
       Game.prototype.updateStepUI = function() {
         this.StepLabel.string = GameData_1.GameData.currStep + "";
@@ -1322,6 +1344,7 @@ window.__require = function e(t, n, r) {
     exports.default = Game;
     cc._RF.pop();
   }, {
+    "./AnimManager": "AnimManager",
     "./Element/BgElement": "BgElement",
     "./GameConst": "GameConst",
     "./GameData": "GameData",

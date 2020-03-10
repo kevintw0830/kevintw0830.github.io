@@ -1,5 +1,5 @@
 window._CCSettings = {
-    platform: "web-mobile",
+    platform: "web-desktop",
     groupList: [
         "default"
     ],
@@ -74,15 +74,6 @@ window._CCSettings = {
             "e5MfGkHStG/plq8559P9h+": [
                 "GameScene/commonbtn2.png",
                 "cc.Texture2D"
-            ],
-            "41D7kWhyFGY7q4NDlzkazn": [
-                "GameScene/singleColor",
-                "cc.SpriteFrame",
-                1
-            ],
-            a8Anh32NZGRZegUtSgEj26: [
-                "GameScene/singleColor.png",
-                "cc.Texture2D"
             ]
         }
     },
@@ -97,11 +88,6 @@ window._CCSettings = {
         "04959d950": [
             "036Qycmv9G5IrNDpZr35cC",
             "bfy4IAxTNO3KmgA2NsID4V"
-        ],
-        "0b44e43d1": [
-            "59yKZLMwhPG7ZAswAWLlt3",
-            "a8Anh32NZGRZegUtSgEj26",
-            "e5MfGkHStG/plq8559P9h+"
         ],
         "0c1f35d80": [
             "02S8zPb5pCf4aHfaOu6kXW",
@@ -181,18 +167,20 @@ window._CCSettings = {
             "f6eFcLZB9FUqTymriEi4Kx",
             "f8YAvz2adIWID0vSP8CVtl",
             "fa98rJb7JDwbmN5bg+AkjE"
+        ],
+        "0f60f5f99": [
+            "59yKZLMwhPG7ZAswAWLlt3",
+            "e5MfGkHStG/plq8559P9h+"
         ]
     },
     md5AssetsMap: {
         import: [
             "04959d950",
             "1b38a",
-            "0b44e43d1",
-            "58351",
             "0c1f35d80",
             "32bc8",
-            "41D7kWhyFGY7q4NDlzkazn",
-            "f9f87",
+            "0f60f5f99",
+            "792ce",
             "9bdLW+YW5Peap+H10MJYrN",
             "ff844",
             "c7aJgfCHVD9Y6QC1V/DoRF",
@@ -209,8 +197,6 @@ window._CCSettings = {
             "3a6ff",
             "947wVljjhEGpwCHw+sp8zA",
             "cc2d1",
-            "a8Anh32NZGRZegUtSgEj26",
-            "e5136",
             "b4P/PCArtIdIH38t6mlw8Y",
             "83fcc",
             "d8HsitJHxOYqo801xBk8ev",
