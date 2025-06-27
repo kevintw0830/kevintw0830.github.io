@@ -1,0 +1,74 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "title": "基础合并教学",
+      "description": "学会1+1=2的基本合并",
+      "gridRows": 2,
+      "gridCols": 2,
+      "maxSteps": 5,
+      "targetScore": 2,
+      "targetNumber": 2,
+      "allowedCardTypes": [1],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 20,
+        "experience": 5,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "将两个1合并成2！拖拽相同数字的卡牌到一起即可合并。",
+        "fixedCardSequence": [1, 1, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 2,
+      "title": "多卡合并教学",
+      "description": "学会多张相同卡牌的连鎖合併",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 8,
+      "targetScore": 16,
+      "targetNumber": 5,
+      "allowedCardTypes": [1, 2, 3, 4],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 50,
+        "experience": 10,
+        "unlockItems": ["tutorial_complete"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "按順序合併：1+1=2, 2+2=4, 4+1=5！多个相同数字会连续合并。",
+        "fixedCardSequence": [1, 2, 3, 4, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 3,
+      "title": "初学者挑战",
+      "description": "运用学到的技巧",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 15,
+      "targetScore": 100,
+      "targetNumber": 8,
+      "allowedCardTypes": [1, 2, 4],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 100,
+        "experience": 20,
+        "unlockItems": ["new_card_type"]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": "",
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      }
+    }
+  ]
+}
+
