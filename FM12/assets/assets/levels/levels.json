@@ -1,0 +1,269 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "title": "基础合并教学",
+      "description": "学会1+1=2的基本合并",
+      "gridRows": 2,
+      "gridCols": 2,
+      "maxSteps": 5,
+      "targetScore": 0,
+      "targetNumber": 2,
+      "allowedCardTypes": [1],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 20,
+        "experience": 5,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "将两个1合并成2！拖拽相同数字的卡牌到一起即可合并。",
+        "fixedCardSequence": [1, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 2,
+      "title": "多卡合并教学",
+      "description": "学会多张相同卡牌的连鎖合併",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 8,
+      "targetScore": 16,
+      "targetNumber": 5,
+      "allowedCardTypes": [1, 2, 3, 4],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 50,
+        "experience": 10,
+        "unlockItems": ["tutorial_complete"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "按順序合併：1+1=2, 2+2=4, 4+1=5！多个相同数字会连续合并。",
+        "fixedCardSequence": [1, 2, 3, 4, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 3,
+      "title": "初學者挑戰",
+      "description": "練習合併技巧與策略",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 10,
+      "targetScore": 30,
+      "targetNumber": 4,
+      "allowedCardTypes": [1, 2],
+      "preplacedCards": [
+        {"row": 0, "col": 0, "cardType": 1, "isLocked": false},
+        {"row": 0, "col": 2, "cardType": 1, "isLocked": false},
+        {"row": 2, "col": 1, "cardType": 2, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 60,
+        "experience": 15,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "思考卡片的放置位置！嘗試將相同數字的卡片放在相鄰位置來提高合併效率。",
+        "fixedCardSequence": [1, 2, 1, 2, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 4,
+      "title": "儲存槽教學",
+      "description": "學習使用儲存槽保存重要的卡片",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 40,
+      "targetNumber": 5,
+      "allowedCardTypes": [1, 2, 3],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 70,
+        "experience": 20,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "點擊右上角的儲存槽可以暫存一張卡片以便後用。合理運用儲存槽可以幫助你更好地規劃！",
+        "fixedCardSequence": [3, 1, 1, 2, 2, 3, 1],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 5,
+      "title": "空間管理挑戰",
+      "description": "學習管理有限的棋盤空間",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 15,
+      "targetScore": 60,
+      "targetNumber": 8,
+      "allowedCardTypes": [1, 2, 3, 4],
+      "preplacedCards": [
+        {"row": 0, "col": 0, "cardType": 1, "isLocked": false},
+        {"row": 0, "col": 2, "cardType": 2, "isLocked": false},
+        {"row": 2, "col": 0, "cardType": 3, "isLocked": false},
+        {"row": 2, "col": 2, "cardType": 4, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 80,
+        "experience": 25,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "空間有限，要合理規劃！嘗試將相同的數字集中在一起，避免棋盤被填滿而無法操作。",
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 6,
+      "title": "交換手牌教學",
+      "description": "學習使用交換手牌功能",
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 80,
+      "targetNumber": 8,
+      "allowedCardTypes": [1, 2, 4],
+      "preplacedCards": [
+        {"row": 1, "col": 1, "cardType": 4, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 100,
+        "experience": 30,
+        "unlockItems": ["swap_extra"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "點擊手牌區域可以交換當前的兩張手牌！這個功能可以幫你在關鍵時刻獲得需要的卡片。每局有3次交換機會。",
+        "fixedCardSequence": [2, 1, 4, 2, 4, 1, 2],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 7,
+      "title": "炸彈卡教學",
+      "description": "學習使用炸彈卡清除障礙",
+      "gridRows": 3,
+      "gridCols": 4,
+      "maxSteps": 14,
+      "targetScore": 90,
+      "targetNumber": 10,
+      "allowedCardTypes": [1, 2, 3, 4, -1],
+      "preplacedCards": [
+        {"row": 0, "col": 1, "cardType": 3, "isLocked": false},
+        {"row": 1, "col": 0, "cardType": 5, "isLocked": false},
+        {"row": 1, "col": 2, "cardType": 1, "isLocked": false},
+        {"row": 2, "col": 1, "cardType": 7, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 120,
+        "experience": 35,
+        "unlockItems": ["bomb_card"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "炸彈卡可以摧毀任何一張已放置的卡片！當棋盤被困住或需要清除障礙時，炸彈卡是你的救星。",
+        "fixedCardSequence": [-1, 1, 2, 3, 4, 5],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 8,
+      "title": "九宮格消除卡教學",
+      "description": "學習使用九宮格消除卡",
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 16,
+      "targetScore": 120,
+      "targetNumber": 8,
+      "allowedCardTypes": [1, 2, 3, -2],
+      "preplacedCards": [
+        {"row": 0, "col": 0, "cardType": 1, "isLocked": false},
+        {"row": 0, "col": 1, "cardType": 2, "isLocked": false},
+        {"row": 0, "col": 2, "cardType": 3, "isLocked": false},
+        {"row": 1, "col": 0, "cardType": 2, "isLocked": false},
+        {"row": 1, "col": 2, "cardType": 1, "isLocked": false},
+        {"row": 2, "col": 0, "cardType": 3, "isLocked": false},
+        {"row": 2, "col": 1, "cardType": 1, "isLocked": false},
+        {"row": 2, "col": 2, "cardType": 2, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 150,
+        "experience": 40,
+        "unlockItems": ["ninegrid_card"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "九宮格消除卡可以一次性消除它周圍3x3範圍內的所有卡片！利用它來清理棋盤和獲得額外分數。",
+        "fixedCardSequence": [-2, 2, 3, 1, 2],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 9,
+      "title": "模仿卡教學",
+      "description": "學習使用模仿卡",
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 18,
+      "targetScore": 150,
+      "targetNumber": 12,
+      "allowedCardTypes": [2, 3, 4, -3],
+      "preplacedCards": [
+        {"row": 1, "col": 1, "cardType": 6, "isLocked": false},
+        {"row": 1, "col": 2, "cardType": 6, "isLocked": false},
+        {"row": 2, "col": 1, "cardType": 3, "isLocked": false},
+        {"row": 2, "col": 2, "cardType": 3, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 180,
+        "experience": 45,
+        "unlockItems": ["mimic_card"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "模仿卡可以變成它周圍出現最多的數字！如果有多個相同頻率的數字，它會變成數值最大的那個。",
+        "fixedCardSequence": [-3, 2, 4, -3, 3],
+        "highlightPositions": []
+      }
+    },
+    {
+      "levelId": 10,
+      "title": "綜合挑戰",
+      "description": "運用所有學到的機制完成最終挑戰",
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 200,
+      "targetNumber": 16,
+      "allowedCardTypes": [1, 2, 3, 4, -1, -2, -3],
+      "preplacedCards": [
+        {"row": 0, "col": 0, "cardType": 4, "isLocked": true},
+        {"row": 0, "col": 3, "cardType": 4, "isLocked": true},
+        {"row": 3, "col": 0, "cardType": 8, "isLocked": false},
+        {"row": 3, "col": 3, "cardType": 8, "isLocked": false}
+      ],
+      "rewards": {
+        "coins": 250,
+        "experience": 60,
+        "unlockItems": ["advanced_mode"]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": "這是一場綜合挑戰！運用你學到的所有技巧來達成目標。合理使用特殊卡片、儲存槽和交換功能。",
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      }
+    }
+  ]
+}
