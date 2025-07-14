@@ -2,8 +2,16 @@
   "levels": [
     {
       "levelId": 1,
-      "title": "基础合并教学",
-      "description": "学会1+1=2的基本合并",
+      "title": {
+        "zh": "基礎合併教學",
+        "en": "Basic Merge Tutorial",
+        "zh_CN": "基础合并教学"
+      },
+      "description": {
+        "zh": "學會1+1=2的基本合併",
+        "en": "Learn basic 1+1=2 merging",
+        "zh_CN": "学会1+1=2的基本合并"
+      },
       "gridRows": 2,
       "gridCols": 2,
       "maxSteps": 5,
@@ -18,15 +26,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "将两个1合并成2！拖拽相同数字的卡牌到一起即可合并。",
+        "teachingText": {
+          "zh": "將兩個1合併成2！拖曳相同數字的卡牌到一起即可合併。",
+          "en": "Merge two 1s to make 2! Drag cards with the same number together to merge them.",
+          "zh_CN": "将两个1合并成2！拖拽相同数字的卡牌到一起即可合并。"
+        },
         "fixedCardSequence": [1, 1],
         "highlightPositions": []
       }
     },
     {
       "levelId": 2,
-      "title": "多卡合并教学",
-      "description": "学会多张相同卡牌的连鎖合併",
+      "title": {
+        "zh": "多卡合併教學",
+        "en": "Multi-Card Merge Tutorial",
+        "zh_CN": "多卡合并教学"
+      },
+      "description": {
+        "zh": "學會多張相同卡牌的連鎖合併",
+        "en": "Learn chain merging of multiple same cards",
+        "zh_CN": "学会多张相同卡牌的连锁合并"
+      },
       "gridRows": 3,
       "gridCols": 3,
       "maxSteps": 8,
@@ -41,15 +61,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "按順序合併：1+1=2, 2+2=4, 4+1=5！多个相同数字会连续合并。",
+        "teachingText": {
+          "zh": "按順序合併：1+1=2, 2+2=4, 4+1=5！多個相同數字會連續合併。",
+          "en": "Merge in sequence: 1+1=2, 2+2=4, 4+1=5! Multiple identical numbers will merge continuously.",
+          "zh_CN": "按顺序合并：1+1=2, 2+2=4, 4+1=5！多个相同数字会连续合并。"
+        },
         "fixedCardSequence": [1, 2, 3, 4, 1],
         "highlightPositions": []
       }
     },
     {
       "levelId": 3,
-      "title": "初學者挑戰",
-      "description": "練習合併技巧與策略",
+      "title": {
+        "zh": "初學者挑戰",
+        "en": "Beginner Challenge",
+        "zh_CN": "初学者挑战"
+      },
+      "description": {
+        "zh": "練習合併技巧與策略",
+        "en": "Practice merging skills and strategy",
+        "zh_CN": "练习合并技巧与策略"
+      },
       "gridRows": 3,
       "gridCols": 3,
       "maxSteps": 10,
@@ -68,15 +100,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "思考卡片的放置位置！嘗試將相同數字的卡片放在相鄰位置來提高合併效率。",
+        "teachingText": {
+          "zh": "思考卡片的放置位置！嘗試將相同數字的卡片放在相鄰位置來提高合併效率。",
+          "en": "Think about card placement! Try to place cards with the same number adjacent to each other for efficient merging.",
+          "zh_CN": "思考卡片的放置位置！尝试将相同数字的卡片放在相邻位置来提高合并效率。"
+        },
         "fixedCardSequence": [1, 2, 1, 2, 1],
         "highlightPositions": []
       }
     },
     {
       "levelId": 4,
-      "title": "儲存槽教學",
-      "description": "學習使用儲存槽保存重要的卡片",
+      "title": {
+        "zh": "儲存槽教學",
+        "en": "Storage Slot Tutorial",
+        "zh_CN": "存储槽教学"
+      },
+      "description": {
+        "zh": "學習使用儲存槽保存重要的卡片",
+        "en": "Learn to use storage slot to save important cards",
+        "zh_CN": "学习使用存储槽保存重要的卡片"
+      },
       "gridRows": 3,
       "gridCols": 3,
       "maxSteps": 12,
@@ -91,15 +135,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "點擊右上角的儲存槽可以暫存一張卡片以便後用。合理運用儲存槽可以幫助你更好地規劃！",
+        "teachingText": {
+          "zh": "點擊右上角的儲存槽可以暫存一張卡片以便後用。合理運用儲存槽可以幫助你更好地規劃！",
+          "en": "Click the storage slot in the upper right to temporarily store a card for later use. Smart use of storage helps you plan better!",
+          "zh_CN": "点击右上角的存储槽可以暂存一张卡片以便后用。合理运用存储槽可以帮助你更好地规划！"
+        },
         "fixedCardSequence": [3, 1, 1, 2, 2, 3, 1],
         "highlightPositions": []
       }
     },
     {
       "levelId": 5,
-      "title": "空間管理挑戰",
-      "description": "學習管理有限的棋盤空間",
+      "title": {
+        "zh": "空間管理挑戰",
+        "en": "Space Management Challenge",
+        "zh_CN": "空间管理挑战"
+      },
+      "description": {
+        "zh": "學習管理有限的棋盤空間",
+        "en": "Learn to manage limited board space",
+        "zh_CN": "学习管理有限的棋盘空间"
+      },
       "gridRows": 3,
       "gridCols": 3,
       "maxSteps": 15,
@@ -119,15 +175,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "空間有限，要合理規劃！嘗試將相同的數字集中在一起，避免棋盤被填滿而無法操作。",
+        "teachingText": {
+          "zh": "空間有限，要合理規劃！嘗試將相同的數字集中在一起，避免棋盤被填滿而無法操作。",
+          "en": "Space is limited, plan wisely! Try to group same numbers together and avoid filling the board completely.",
+          "zh_CN": "空间有限，要合理规划！尝试将相同的数字集中在一起，避免棋盘被填满而无法操作。"
+        },
         "fixedCardSequence": [],
         "highlightPositions": []
       }
     },
     {
       "levelId": 6,
-      "title": "交換手牌教學",
-      "description": "學習使用交換手牌功能",
+      "title": {
+        "zh": "交換手牌教學",
+        "en": "Hand Cards Swap Tutorial",
+        "zh_CN": "交换手牌教学"
+      },
+      "description": {
+        "zh": "學習使用交換手牌功能",
+        "en": "Learn to use hand cards swap feature",
+        "zh_CN": "学习使用交换手牌功能"
+      },
       "gridRows": 3,
       "gridCols": 3,
       "maxSteps": 12,
@@ -144,15 +212,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "點擊手牌區域可以交換當前的兩張手牌！這個功能可以幫你在關鍵時刻獲得需要的卡片。每局有3次交換機會。",
+        "teachingText": {
+          "zh": "點擊手牌區域可以交換當前的兩張手牌！這個功能可以幫你在關鍵時刻獲得需要的卡片。每局有3次交換機會。",
+          "en": "Click the hand cards area to swap your two current cards! This feature helps you get the cards you need at crucial moments. You have 3 swaps per game.",
+          "zh_CN": "点击手牌区域可以交换当前的两张手牌！这个功能可以帮你在关键时刻获得需要的卡片。每局有3次交换机会。"
+        },
         "fixedCardSequence": [2, 1, 4, 2, 4, 1, 2],
         "highlightPositions": []
       }
     },
     {
       "levelId": 7,
-      "title": "炸彈卡教學",
-      "description": "學習使用炸彈卡清除障礙",
+      "title": {
+        "zh": "炸彈卡教學",
+        "en": "Bomb Card Tutorial",
+        "zh_CN": "炸弹卡教学"
+      },
+      "description": {
+        "zh": "學習使用炸彈卡清除障礙",
+        "en": "Learn to use bomb cards to clear obstacles",
+        "zh_CN": "学习使用炸弹卡清除障碍"
+      },
       "gridRows": 3,
       "gridCols": 4,
       "maxSteps": 14,
@@ -172,15 +252,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "炸彈卡可以摧毀任何一張已放置的卡片！當棋盤被困住或需要清除障礙時，炸彈卡是你的救星。",
+        "teachingText": {
+          "zh": "炸彈卡可以摧毀任何一張已放置的卡片！當棋盤被困住或需要清除障礙時，炸彈卡是你的救星。",
+          "en": "Bomb cards can destroy any placed card! When the board is stuck or you need to clear obstacles, bomb cards are your savior.",
+          "zh_CN": "炸弹卡可以摧毁任何一张已放置的卡片！当棋盘被困住或需要清除障碍时，炸弹卡是你的救星。"
+        },
         "fixedCardSequence": [-1, 1, 2, 3, 4, 5],
         "highlightPositions": []
       }
     },
     {
       "levelId": 8,
-      "title": "九宮格消除卡教學",
-      "description": "學習使用九宮格消除卡",
+      "title": {
+        "zh": "九宮格消除卡教學",
+        "en": "Nine-Grid Clear Card Tutorial",
+        "zh_CN": "九宫格消除卡教学"
+      },
+      "description": {
+        "zh": "學習使用九宮格消除卡",
+        "en": "Learn to use nine-grid clear cards",
+        "zh_CN": "学习使用九宫格消除卡"
+      },
       "gridRows": 4,
       "gridCols": 4,
       "maxSteps": 16,
@@ -204,15 +296,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "九宮格消除卡可以一次性消除它周圍3x3範圍內的所有卡片！利用它來清理棋盤和獲得額外分數。",
+        "teachingText": {
+          "zh": "九宮格消除卡可以一次性消除它周圍3x3範圍內的所有卡片！利用它來清理棋盤和獲得額外分數。",
+          "en": "Nine-grid clear cards can eliminate all cards in a 3x3 area around them at once! Use them to clear the board and gain extra points.",
+          "zh_CN": "九宫格消除卡可以一次性消除它周围3x3范围内的所有卡片！利用它来清理棋盘和获得额外分数。"
+        },
         "fixedCardSequence": [-2, 2, 3, 1, 2],
         "highlightPositions": []
       }
     },
     {
       "levelId": 9,
-      "title": "模仿卡教學",
-      "description": "學習使用模仿卡",
+      "title": {
+        "zh": "模仿卡教學",
+        "en": "Mimic Card Tutorial",
+        "zh_CN": "模仿卡教学"
+      },
+      "description": {
+        "zh": "學習使用模仿卡",
+        "en": "Learn to use mimic cards",
+        "zh_CN": "学习使用模仿卡"
+      },
       "gridRows": 4,
       "gridCols": 4,
       "maxSteps": 18,
@@ -232,15 +336,27 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "模仿卡可以變成它周圍出現最多的數字！如果有多個相同頻率的數字，它會變成數值最大的那個。",
+        "teachingText": {
+          "zh": "模仿卡可以變成它周圍出現最多的數字！如果有多個相同頻率的數字，它會變成數值最大的那個。",
+          "en": "Mimic cards can transform into the most common number around them! If there are multiple numbers with the same frequency, it becomes the largest one.",
+          "zh_CN": "模仿卡可以变成它周围出现最多的数字！如果有多个相同频率的数字，它会变成数值最大的那个。"
+        },
         "fixedCardSequence": [-3, 2, 4, -3, 3],
         "highlightPositions": []
       }
     },
     {
       "levelId": 10,
-      "title": "綜合挑戰",
-      "description": "運用所有學到的機制完成最終挑戰",
+      "title": {
+        "zh": "綜合挑戰",
+        "en": "Comprehensive Challenge",
+        "zh_CN": "综合挑战"
+      },
+      "description": {
+        "zh": "運用所有學到的機制完成最終挑戰",
+        "en": "Use all learned mechanics to complete the final challenge",
+        "zh_CN": "运用所有学到的机制完成最终挑战"
+      },
       "gridRows": 4,
       "gridCols": 4,
       "maxSteps": 25,
@@ -260,7 +376,11 @@
       },
       "tutorial": {
         "isTeaching": true,
-        "teachingText": "這是一場綜合挑戰！運用你學到的所有技巧來達成目標。合理使用特殊卡片、儲存槽和交換功能。",
+        "teachingText": {
+          "zh": "這是一場綜合挑戰！運用你學到的所有技巧來達成目標。合理使用特殊卡片、儲存槽和交換功能。",
+          "en": "This is a comprehensive challenge! Use all the skills you've learned to achieve the goal. Make smart use of special cards, storage slots, and swap functions.",
+          "zh_CN": "这是一场综合挑战！运用你学到的所有技巧来达成目标。合理使用特殊卡片、存储槽和交换功能。"
+        },
         "fixedCardSequence": [],
         "highlightPositions": []
       }

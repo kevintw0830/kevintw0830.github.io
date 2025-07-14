@@ -489,5 +489,166 @@
   "error_code_nine_grid_need_empty": "Nine-Grid card needs to be placed in empty area!",
   "@error_code_nine_grid_need_empty": {
     "description": "Nine-grid card error code message"
+  },
+  "card_type_bomb": "Bomb",
+  "@card_type_bomb": {
+    "description": "Bomb card type name"
+  },
+  "card_type_nine_grid": "Nine-Grid",
+  "@card_type_nine_grid": {
+    "description": "Nine-grid card type name"
+  },
+  "card_type_mimic": "Mimic",
+  "@card_type_mimic": {
+    "description": "Mimic card type name"
+  },
+  "card_type_unknown_special": "Unknown Special Card Type",
+  "@card_type_unknown_special": {
+    "description": "Unknown special card type message"
+  },
+  "ui_hand_cards_label": "HAND",
+  "@ui_hand_cards_label": {
+    "description": "Hand cards section label"
+  },
+  "ui_temp_storage_label": "TEMP STORAGE",
+  "@ui_temp_storage_label": {
+    "description": "Temporary storage section label"
+  },
+  "ui_loading_default": "Loading...",
+  "@ui_loading_default": {
+    "description": "Default loading message"
+  },
+  "ui_loading_game": "Loading game...",
+  "@ui_loading_game": {
+    "description": "Game loading message"
+  },
+  "ui_loading_semantic_default": "Loading",
+  "@ui_loading_semantic_default": {
+    "description": "Default loading semantic label"
+  },
+  "ui_loading_semantic_game": "Game loading",
+  "@ui_loading_semantic_game": {
+    "description": "Game loading semantic label"
+  },
+  "network_status_connected": "Network connected",
+  "@network_status_connected": {
+    "description": "Network connection status - connected"
+  },
+  "network_status_disconnected": "Network disconnected",
+  "@network_status_disconnected": {
+    "description": "Network connection status - disconnected"
+  },
+  "network_status_connecting": "Connecting",
+  "@network_status_connecting": {
+    "description": "Network connection status - connecting"
+  },
+  "network_status_reconnecting": "Reconnecting",
+  "@network_status_reconnecting": {
+    "description": "Network connection status - reconnecting"
+  },
+  "network_status_failed": "Connection failed",
+  "@network_status_failed": {
+    "description": "Network connection status - failed"
+  },
+  "page_title_level_selection": "Select Level",
+  "@page_title_level_selection": {
+    "description": "Level selection page title"
+  },
+  "page_title_game_history": "Game History",
+  "@page_title_game_history": {
+    "description": "Game history page title"
+  },
+  "page_text_no_game_records": "No game records yet",
+  "@page_text_no_game_records": {
+    "description": "No game records message"
+  },
+  "page_text_no_levels_available": "No levels available",
+  "@page_text_no_levels_available": {
+    "description": "No levels available message"
+  },
+  "page_text_reload": "Reload",
+  "@page_text_reload": {
+    "description": "Reload button text"
+  },
+  "page_text_game_progress": "Game Progress",
+  "@page_text_game_progress": {
+    "description": "Game progress section title"
+  },
+  "page_text_completed_levels": "Completed {completed} / {total} levels",
+  "@page_text_completed_levels": {
+    "description": "Completed levels progress text",
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "page_text_game_statistics": "Game Statistics",
+  "@page_text_game_statistics": {
+    "description": "Game statistics section title"
+  },
+  "page_text_total_games": "Total Games",
+  "@page_text_total_games": {
+    "description": "Total games label"
+  },
+  "page_text_best_score": "Best Score",
+  "@page_text_best_score": {
+    "description": "Best score label"
+  },
+  "page_text_average_score": "Average Score",
+  "@page_text_average_score": {
+    "description": "Average score label"
+  },
+  "page_text_total_play_time": "Total Play Time",
+  "@page_text_total_play_time": {
+    "description": "Total play time label"
+  },
+  "page_text_best_score_display": "Best: {score}",
+  "@page_text_best_score_display": {
+    "description": "Best score display format",
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "dialog_text_clear_all_records": "Are you sure you want to delete all game records? This action cannot be undone.",
+  "@dialog_text_clear_all_records": {
+    "description": "Clear all records confirmation text"
+  },
+  "dialog_title_clear_all_records": "Clear All Records",
+  "@dialog_title_clear_all_records": {
+    "description": "Clear all records dialog title"
+  },
+  "strategy_version_classic_description": "Original number generation logic, suitable for basic gameplay",
+  "@strategy_version_classic_description": {
+    "description": "Description for classic strategy version"
+  },
+  "strategy_version_simplified_description": "Simplified generation rules, easier to get started",
+  "@strategy_version_simplified_description": {
+    "description": "Description for simplified strategy version"
+  },
+  "strategy_version_balanced_description": "Balanced difficulty curve, suitable for most players",
+  "@strategy_version_balanced_description": {
+    "description": "Description for balanced strategy version"
+  },
+  "strategy_version_stable_description": "Stable game experience, reduces extreme situations",
+  "@strategy_version_stable_description": {
+    "description": "Description for stable strategy version"
+  },
+  "strategy_version_smart_balanced_description": "Intelligently adjusts difficulty, provides optimal game experience",
+  "@strategy_version_smart_balanced_description": {
+    "description": "Description for smart balanced strategy version"
+  },
+  "strategy_version_smart_optimized_description": "Optimized smart balance, solves large number proximity issues, takes care of isolated small numbers",
+  "@strategy_version_smart_optimized_description": {
+    "description": "Description for smart optimized strategy version"
+  },
+  "strategy_version_unknown": "Unknown Version",
+  "@strategy_version_unknown": {
+    "description": "Unknown strategy version fallback text"
   }
 }
