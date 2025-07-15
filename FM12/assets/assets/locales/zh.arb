@@ -137,5 +137,16 @@
   "strategy_version_stable_description": "穩定的遊戲體驗，減少極端情況",
   "strategy_version_smart_balanced_description": "智能調整難度，提供最佳遊戲體驗",
   "strategy_version_smart_optimized_description": "優化版智能平衡，解決大數字後接近數字問題，照顧孤獨小數字",
-  "strategy_version_unknown": "未知版本"
+  "strategy_version_unknown": "未知版本",
+  "menu_section_game_modes": "遊戲模式",
+  "menu_section_challenge_modes": "挑戰模式",
+  "menu_mode_level_title": "關卡模式",
+  "menu_mode_level_desc": "循序漸進的關卡挑戰，適合學習遊戲機制",
+  "menu_mode_challenge_infinite_title": "無限數字",
+  "menu_mode_challenge_infinite_desc": "數字可以超過13繼續合併，挑戰更高分數",
+  "menu_mode_challenge_poker_title": "經典撲克",
+  "menu_mode_challenge_poker_desc": "數字限制在1-13，符合傳統撲克牌規則",
+  "menu_mode_challenge_infinite_toast": "挑戰模式 - 無限數字：數字可以超過13繼續合併",
+  "menu_mode_challenge_poker_toast": "挑戰模式 - 經典撲克：數字限制在1-13，符合撲克牌規則",
+  "menu_grid_size_selection": "選擇網格大小"
 }

@@ -137,5 +137,16 @@
   "strategy_version_stable_description": "稳定的游戏体验，减少极端情况",
   "strategy_version_smart_balanced_description": "智能调整难度，提供最佳游戏体验",
   "strategy_version_smart_optimized_description": "优化版智能平衡，解决大数字后接近数字问题，照顾孤独小数字",
-  "strategy_version_unknown": "未知版本"
+  "strategy_version_unknown": "未知版本",
+  "menu_section_game_modes": "游戏模式",
+  "menu_section_challenge_modes": "挑战模式",
+  "menu_mode_level_title": "关卡模式",
+  "menu_mode_level_desc": "循序渐进的关卡挑战，适合学习游戏机制",
+  "menu_mode_challenge_infinite_title": "无限数字",
+  "menu_mode_challenge_infinite_desc": "数字可以超过13继续合并，挑战更高分数",
+  "menu_mode_challenge_poker_title": "经典扑克",
+  "menu_mode_challenge_poker_desc": "数字限制在1-13，符合传统扑克牌规则",
+  "menu_mode_challenge_infinite_toast": "挑战模式 - 无限数字：数字可以超过13继续合并",
+  "menu_mode_challenge_poker_toast": "挑战模式 - 经典扑克：数字限制在1-13，符合扑克牌规则",
+  "menu_grid_size_selection": "选择网格大小"
 }

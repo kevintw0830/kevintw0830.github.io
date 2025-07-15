@@ -650,5 +650,49 @@
   "strategy_version_unknown": "Unknown Version",
   "@strategy_version_unknown": {
     "description": "Unknown strategy version fallback text"
+  },
+  "menu_section_game_modes": "Game Modes",
+  "@menu_section_game_modes": {
+    "description": "Game modes section title"
+  },
+  "menu_section_challenge_modes": "Challenge Modes",
+  "@menu_section_challenge_modes": {
+    "description": "Challenge modes section title"
+  },
+  "menu_mode_level_title": "Level Mode",
+  "@menu_mode_level_title": {
+    "description": "Level mode title"
+  },
+  "menu_mode_level_desc": "Progressive level challenges, perfect for learning game mechanics",
+  "@menu_mode_level_desc": {
+    "description": "Level mode description"
+  },
+  "menu_mode_challenge_infinite_title": "Infinite Numbers",
+  "@menu_mode_challenge_infinite_title": {
+    "description": "Infinite numbers challenge mode title"
+  },
+  "menu_mode_challenge_infinite_desc": "Numbers can exceed 13 and continue merging for higher scores",
+  "@menu_mode_challenge_infinite_desc": {
+    "description": "Infinite numbers challenge mode description"
+  },
+  "menu_mode_challenge_poker_title": "Classic Poker",
+  "@menu_mode_challenge_poker_title": {
+    "description": "Classic poker challenge mode title"
+  },
+  "menu_mode_challenge_poker_desc": "Numbers limited to 1-13, following traditional poker card rules",
+  "@menu_mode_challenge_poker_desc": {
+    "description": "Classic poker challenge mode description"
+  },
+  "menu_mode_challenge_infinite_toast": "Challenge Mode - Infinite Numbers: Numbers can exceed 13 and continue merging",
+  "@menu_mode_challenge_infinite_toast": {
+    "description": "Toast message for infinite numbers mode"
+  },
+  "menu_mode_challenge_poker_toast": "Challenge Mode - Classic Poker: Numbers limited to 1-13, following poker card rules",
+  "@menu_mode_challenge_poker_toast": {
+    "description": "Toast message for classic poker mode"
+  },
+  "menu_grid_size_selection": "Select Grid Size",
+  "@menu_grid_size_selection": {
+    "description": "Grid size selection label"
   }
 }
