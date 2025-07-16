@@ -726,5 +726,273 @@
   "menu_grid_size_selection": "Select Grid Size",
   "@menu_grid_size_selection": {
     "description": "Grid size selection label"
+  },
+  "account_management_title": "Account Management",
+  "account_current_user": "Current User",
+  "account_anonymous_user": "Anonymous User",
+  "account_registered_user": "Registered User",
+  "account_user_info": "User Information",
+  "account_user_id": "User ID",
+  "account_email": "Email",
+  "account_display_name": "Display Name",
+  "account_creation_time": "Account Created",
+  "account_last_signin": "Last Sign In",
+  "account_upgrade_section": "Upgrade Account",
+  "account_upgrade_title": "Link Your Account",
+  "account_upgrade_desc": "Link your email to save your game progress permanently",
+  "account_upgrade_benefits": "Benefits of linking your account:",
+  "account_upgrade_benefit_1": "- Save your game progress",
+  "account_upgrade_benefit_2": "- Access leaderboards",
+  "account_upgrade_benefit_3": "- Sync across devices",
+  "account_upgrade_button": "Upgrade Account",
+  "account_upgrade_with_google": "Link with Google",
+  "account_logout_section": "Account Actions",
+  "account_logout_button": "Sign Out",
+  "account_logout_confirm_title": "Sign Out Confirmation",
+  "account_logout_confirm_message": "Are you sure you want to sign out?",
+  "account_logout_confirm_yes": "Sign Out",
+  "account_logout_confirm_no": "Cancel",
+  "account_logout_success": "Successfully signed out",
+  "account_upgrade_success": "Account upgraded successfully!",
+  "account_upgrade_error": "Failed to upgrade account",
+  "account_back_to_menu": "Back to Menu",
+  "menu_user_status_anonymous": "Guest",
+  "menu_user_status_signed_in": "Signed In",
+  "menu_account_button": "Account",
+  "leaderboard_title": "Leaderboard",
+  "@leaderboard_title": {
+    "description": "Leaderboard page title"
+  },
+  "leaderboard_loading": "Loading leaderboard...",
+  "@leaderboard_loading": {
+    "description": "Loading leaderboard message"
+  },
+  "leaderboard_no_data": "No leaderboard data available",
+  "@leaderboard_no_data": {
+    "description": "No leaderboard data message"
+  },
+  "leaderboard_load_more": "Load More",
+  "@leaderboard_load_more": {
+    "description": "Load more button text"
+  },
+  "leaderboard_grid_size": "Grid Size",
+  "@leaderboard_grid_size": {
+    "description": "Grid size selector label"
+  },
+  "leaderboard_ranking_type": "Ranking Type",
+  "@leaderboard_ranking_type": {
+    "description": "Ranking type selector label"
+  },
+  "leaderboard_anonymous_user": "Anonymous User",
+  "@leaderboard_anonymous_user": {
+    "description": "Anonymous user display name"
+  },
+  "leaderboard_game_time": "Game Time",
+  "@leaderboard_game_time": {
+    "description": "Game time label"
+  },
+  "leaderboard_created_time": "Created Time",
+  "@leaderboard_created_time": {
+    "description": "Created time label"
+  },
+  "leaderboard_game_details": "Game Details",
+  "@leaderboard_game_details": {
+    "description": "Game details dialog title"
+  },
+  "leaderboard_basic_info": "Basic Information",
+  "@leaderboard_basic_info": {
+    "description": "Basic information section title"
+  },
+  "leaderboard_game_data": "Game Data",
+  "@leaderboard_game_data": {
+    "description": "Game data section title"
+  },
+  "leaderboard_technical_info": "Technical Information",
+  "@leaderboard_technical_info": {
+    "description": "Technical information section title"
+  },
+  "leaderboard_player": "Player",
+  "@leaderboard_player": {
+    "description": "Player label"
+  },
+  "leaderboard_game_mode": "Game Mode",
+  "@leaderboard_game_mode": {
+    "description": "Game mode label"
+  },
+  "leaderboard_score": "Score",
+  "@leaderboard_score": {
+    "description": "Score label"
+  },
+  "leaderboard_steps": "Steps",
+  "@leaderboard_steps": {
+    "description": "Steps label"
+  },
+  "leaderboard_efficiency": "Efficiency",
+  "@leaderboard_efficiency": {
+    "description": "Efficiency label"
+  },
+  "leaderboard_max_value": "Max Value",
+  "@leaderboard_max_value": {
+    "description": "Maximum value label"
+  },
+  "leaderboard_min_value": "Min Value",
+  "@leaderboard_min_value": {
+    "description": "Minimum value label"
+  },
+  "leaderboard_math_strategy": "Math Strategy Version",
+  "@leaderboard_math_strategy": {
+    "description": "Math strategy version label"
+  },
+  "common_close": "Close",
+  "@common_close": {
+    "description": "Close button text"
+  },
+  "common_retry": "Retry",
+  "@common_retry": {
+    "description": "Retry button text"
+  },
+  "common_back": "Back",
+  "@common_back": {
+    "description": "Back button text"
+  },
+  "common_reconnect": "Reconnect",
+  "@common_reconnect": {
+    "description": "Reconnect button text"
+  },
+  "common_reload": "Reload",
+  "@common_reload": {
+    "description": "Reload button text"
+  },
+  "common_restart": "Restart",
+  "@common_restart": {
+    "description": "Restart button text"
+  },
+  "common_request_permission": "Request Permission",
+  "@common_request_permission": {
+    "description": "Request permission button text"
+  },
+  "error_network_failed": "Network connection failed, please check your network settings",
+  "@error_network_failed": {
+    "description": "Network error message"
+  },
+  "error_not_found": "Content not found",
+  "@error_not_found": {
+    "description": "Not found error message"
+  },
+  "error_server_failed": "Server error occurred, please try again later",
+  "@error_server_failed": {
+    "description": "Server error message"
+  },
+  "error_permission_denied": "You don't have permission to perform this action",
+  "@error_permission_denied": {
+    "description": "Permission denied error message"
+  },
+  "error_load_failed": "Failed to load",
+  "@error_load_failed": {
+    "description": "Load failed error message"
+  },
+  "error_game_failed": "Game error occurred",
+  "@error_game_failed": {
+    "description": "Game error message"
+  },
+  "error_no_content": "No content available",
+  "@error_no_content": {
+    "description": "No content message"
+  },
+  "error_unknown": "Unknown error occurred",
+  "@error_unknown": {
+    "description": "Unknown error message"
+  },
+  "error_code_prefix": "Error Code",
+  "@error_code_prefix": {
+    "description": "Error code prefix"
+  },
+  "game_history_score_label": "Score",
+  "@game_history_score_label": {
+    "description": "Score label in game history"
+  },
+  "game_history_time_label": "Time",
+  "@game_history_time_label": {
+    "description": "Time label in game history"
+  },
+  "game_history_steps_label": "Steps",
+  "@game_history_steps_label": {
+    "description": "Steps label in game history"
+  },
+  "game_history_game_time_label": "Game Time",
+  "@game_history_game_time_label": {
+    "description": "Game time label in game history"
+  },
+  "auth_email_label_simple": "Email",
+  "@auth_email_label_simple": {
+    "description": "Simple email label"
+  },
+  "auth_email_hint_simple": "Please enter your email",
+  "@auth_email_hint_simple": {
+    "description": "Simple email hint"
+  },
+  "auth_password_label_simple": "Password",
+  "@auth_password_label_simple": {
+    "description": "Simple password label"
+  },
+  "auth_password_hint_simple": "Please enter your password",
+  "@auth_password_hint_simple": {
+    "description": "Simple password hint"
+  },
+  "auth_email_required": "Please enter email",
+  "@auth_email_required": {
+    "description": "Email required validation message"
+  },
+  "auth_email_invalid": "Please enter a valid email",
+  "@auth_email_invalid": {
+    "description": "Email invalid validation message"
+  },
+  "auth_password_min_length": "Password must be at least 6 characters",
+  "@auth_password_min_length": {
+    "description": "Password minimum length validation message"
+  },
+  "auth_password_required": "Please enter password",
+  "@auth_password_required": {
+    "description": "Password required validation message"
+  },
+  "dialog_cancel": "Cancel",
+  "@dialog_cancel": {
+    "description": "Cancel button in dialogs"
+  },
+  "dialog_confirm": "Confirm",
+  "@dialog_confirm": {
+    "description": "Confirm button in dialogs"
+  },
+  "dialog_continue": "Continue",
+  "@dialog_continue": {
+    "description": "Continue button in dialogs"
+  },
+  "dialog_warning": "Warning",
+  "@dialog_warning": {
+    "description": "Warning dialog title"
+  },
+  "dialog_error_code": "Error Code",
+  "@dialog_error_code": {
+    "description": "Error code label in dialogs"
+  },
+  "dialog_score": "Score",
+  "@dialog_score": {
+    "description": "Score label in dialogs"
+  },
+  "dialog_best_score": "Best Score",
+  "@dialog_best_score": {
+    "description": "Best score label in dialogs"
+  },
+  "dialog_main_menu": "Main Menu",
+  "@dialog_main_menu": {
+    "description": "Main menu button in dialogs"
+  },
+  "dialog_share": "Share",
+  "@dialog_share": {
+    "description": "Share button in dialogs"
+  },
+  "dialog_restart": "Restart",
+  "@dialog_restart": {
+    "description": "Restart button in dialogs"
   }
 }
