@@ -1,0 +1,1845 @@
+{
+  "@@locale": "en",
+  "app_title": "Merge Game",
+  "@app_title": {
+    "description": "The title of the application"
+  },
+  "menu_main_title": "Main Menu (TEST)",
+  "@menu_main_title": {
+    "description": "Title of the main menu"
+  },
+  "menu_main_level_mode": "Level Mode",
+  "@menu_main_level_mode": {
+    "description": "Level mode button text"
+  },
+  "menu_main_challenge_mode": "Challenge Mode",
+  "@menu_main_challenge_mode": {
+    "description": "Challenge mode button text"
+  },
+  "menu_main_tutorial": "Tutorial",
+  "@menu_main_tutorial": {
+    "description": "Tutorial button text"
+  },
+  "menu_main_settings": "Settings",
+  "@menu_main_settings": {
+    "description": "Settings button text"
+  },
+  "menu_main_history": "History",
+  "@menu_main_history": {
+    "description": "History button text"
+  },
+  "menu_debug_mode_enabled": "Debug mode enabled",
+  "@menu_debug_mode_enabled": {
+    "description": "Debug mode enabled message"
+  },
+  "menu_debug_mode_disabled": "Debug mode disabled",
+  "@menu_debug_mode_disabled": {
+    "description": "Debug mode disabled message"
+  },
+  "settings_strategy_title": "Math Strategy Selection",
+  "@settings_strategy_title": {
+    "description": "Math strategy selection title"
+  },
+  "settings_strategy_current": "Current strategy: {strategy}",
+  "@settings_strategy_current": {
+    "description": "Current strategy display",
+    "placeholders": {
+      "strategy": {
+        "type": "String"
+      }
+    }
+  },
+  "settings_merge_clear_area": "13+13 = Clear Area",
+  "@settings_merge_clear_area": {
+    "description": "Merge clear area option"
+  },
+  "settings_items_allow_duplicate": "Allow Duplicate Items",
+  "@settings_items_allow_duplicate": {
+    "description": "Allow duplicate items option"
+  },
+  "settings_storage_check": "Check Storage",
+  "@settings_storage_check": {
+    "description": "Check storage option"
+  },
+  "menu_ui_directory_title": "Directory",
+  "@menu_ui_directory_title": {
+    "description": "Game directory title"
+  },
+  "menu_ui_subtitle": "Challenge numbers, aim for high score!",
+  "@menu_ui_subtitle": {
+    "description": "Game subtitle"
+  },
+  "menu_mode_level_description": "Step by step, gradual challenge",
+  "@menu_mode_level_description": {
+    "description": "Level mode description"
+  },
+  "menu_mode_challenge_description": "Random puzzles, free combination",
+  "@menu_mode_challenge_description": {
+    "description": "Challenge mode description"
+  },
+  "settings_mode_switch_stable": "Switch to Stable Mode",
+  "@settings_mode_switch_stable": {
+    "description": "Switch to stable mode button"
+  },
+  "settings_mode_switched_stable": "Switched to stable mode",
+  "@settings_mode_switched_stable": {
+    "description": "Switched to stable mode message"
+  },
+  "menu_tutorial_not_ready": "Tutorial level not ready yet",
+  "@menu_tutorial_not_ready": {
+    "description": "Tutorial level not ready message"
+  },
+  "auth_welcome_message": "Welcome back, ready to challenge the merge game!",
+  "auth_login_anonymous": "Anonymous Login (Quick Experience)",
+  "auth_login_google": "Sign in with Google",
+  "auth_login_email": "Sign in with Email",
+  "auth_login_apple": "Sign in with Apple",
+  "auth_email_label": "Email",
+  "auth_email_hint": "Please enter your Email",
+  "auth_password_label": "Password",
+  "auth_password_hint": "Please enter your password",
+  "auth_login_button": "Login",
+  "auth_back_button": "Back",
+  "auth_or_divider": "or",
+  "auth_checking_status": "Checking login status...",
+  "auth_authenticating": "Logging in...",
+  "auth_loading": "Loading...",
+  "auth_initializing": "Initializing...",
+  "auth_error_email_empty": "Please enter Email",
+  "auth_error_password_empty": "Please enter password",
+  "auth_error_email_invalid": "Please enter a valid Email",
+  "auth_error_password_short": "Password must be at least 6 characters",
+  "auth_error_fields_empty": "Email and password cannot be empty",
+  "auth_error_service_unavailable": "Authentication service not initialized",
+  "auth_error_anonymous_failed": "Anonymous login failed",
+  "auth_error_google_failed": "Google login failed",
+  "auth_error_email_failed": "Email login failed",
+  "auth_error_upgrade_failed": "Account upgrade failed",
+  "auth_error_signout_failed": "Sign out failed",
+  "auth_error_delete_failed": "Delete account failed",
+  "auth_error_auth_process": "Error occurred during authentication",
+  "auth_error_check_status": "Failed to check authentication status",
+  "auth_terms_agreement": "By logging in, you agree to our Terms of Service and Privacy Policy",
+  "auth_version_info": "Version 2.0.0",
+  "game_ui_score": "Score",
+  "@game_ui_score": {
+    "description": "Score label"
+  },
+  "game_ui_steps": "Steps",
+  "@game_ui_steps": {
+    "description": "Steps label"
+  },
+  "game_ui_level": "Level",
+  "@game_ui_level": {
+    "description": "Level label"
+  },
+  "game_ui_score_display": "Score: {score}",
+  "@game_ui_score_display": {
+    "description": "Score display with value",
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "game_ui_steps_display": "Steps: {steps}",
+  "@game_ui_steps_display": {
+    "description": "Steps display with value",
+    "placeholders": {
+      "steps": {
+        "type": "int"
+      }
+    }
+  },
+  "game_ui_level_display": "Level {level}",
+  "@game_ui_level_display": {
+    "description": "Level display with number",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "game_ui_challenge_title": "Challenge Mode {rows}x{columns}",
+  "@game_ui_challenge_title": {
+    "description": "Challenge mode title with grid size",
+    "placeholders": {
+      "rows": {
+        "type": "int"
+      },
+      "columns": {
+        "type": "int"
+      }
+    }
+  },
+  "game_ui_level_title": "Level {level}: {title}",
+  "@game_ui_level_title": {
+    "description": "Level title with number and name",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "dialog_message_swap_exhausted": "Swap attempts exhausted! Get more through ads or items",
+  "@dialog_message_swap_exhausted": {
+    "description": "Message when swap cards are used up"
+  },
+  "dialog_error_message": "Error: {error}",
+  "@dialog_error_message": {
+    "description": "Error message with details",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "dialog_button_retry": "Retry",
+  "@dialog_button_retry": {
+    "description": "Retry button text"
+  },
+  "dialog_message_all_levels_complete": "Congratulations! You have completed all levels!",
+  "@dialog_message_all_levels_complete": {
+    "description": "Message when all levels are completed"
+  },
+  "level_info_target_score": "Target Score",
+  "@level_info_target_score": {
+    "description": "Target score label"
+  },
+  "level_info_target_number": "Target Number",
+  "@level_info_target_number": {
+    "description": "Target number label"
+  },
+  "level_info_step_limit": "Step Limit",
+  "@level_info_step_limit": {
+    "description": "Step limit label"
+  },
+  "level_tutorial_hint": "Tutorial Hint",
+  "@level_tutorial_hint": {
+    "description": "Tutorial hint title"
+  },
+  "dialog_game_over_perfect": "Perfect Complete!",
+  "@dialog_game_over_perfect": {
+    "description": "Perfect completion title"
+  },
+  "dialog_game_over_complete": "Level Complete!",
+  "@dialog_game_over_complete": {
+    "description": "Level completion title"
+  },
+  "dialog_game_over_failed": "Level Failed",
+  "@dialog_game_over_failed": {
+    "description": "Level failed title"
+  },
+  "dialog_game_over_title": "Game Over",
+  "@dialog_game_over_title": {
+    "description": "Game over title"
+  },
+  "dialog_section_target_status": "Target Achievement",
+  "@dialog_section_target_status": {
+    "description": "Target achievement section title"
+  },
+  "dialog_section_game_stats": "Game Statistics",
+  "@dialog_section_game_stats": {
+    "description": "Game statistics section title"
+  },
+  "dialog_section_game_settings": "Game Settings",
+  "@dialog_section_game_settings": {
+    "description": "Game settings section title"
+  },
+  "dialog_stats_final_score": "Final Score",
+  "@dialog_stats_final_score": {
+    "description": "Final score label"
+  },
+  "dialog_stats_total_steps": "Total Steps",
+  "@dialog_stats_total_steps": {
+    "description": "Total steps label"
+  },
+  "dialog_settings_math_strategy": "Math Strategy Version",
+  "@dialog_settings_math_strategy": {
+    "description": "Math strategy version label"
+  },
+  "dialog_settings_merge_behavior": "13+13 Processing",
+  "@dialog_settings_merge_behavior": {
+    "description": "Merge behavior setting label"
+  },
+  "dialog_settings_item_restriction": "Item Duplication Restriction",
+  "@dialog_settings_item_restriction": {
+    "description": "Item restriction setting label"
+  },
+  "dialog_button_next_level": "Next Level",
+  "@dialog_button_next_level": {
+    "description": "Next level button text"
+  },
+  "dialog_button_restart": "Restart",
+  "@dialog_button_restart": {
+    "description": "Restart button text"
+  },
+  "dialog_button_back_to_menu": "Back to Menu",
+  "@dialog_button_back_to_menu": {
+    "description": "Back to menu button text"
+  },
+  "dialog_button_back_to_level_selection": "Back to Level Selection",
+  "@dialog_button_back_to_level_selection": {
+    "description": "Back to level selection button text"
+  },
+  "strategy_version_classic": "Classic Version",
+  "@strategy_version_classic": {
+    "description": "Classic strategy version name"
+  },
+  "strategy_version_simplified": "Simplified Version",
+  "@strategy_version_simplified": {
+    "description": "Simplified strategy version name"
+  },
+  "strategy_version_balanced": "Balanced Version",
+  "@strategy_version_balanced": {
+    "description": "Balanced strategy version name"
+  },
+  "strategy_version_stable": "Stable Version",
+  "@strategy_version_stable": {
+    "description": "Stable strategy version name"
+  },
+  "strategy_version_smart_balanced": "Smart Balanced",
+  "@strategy_version_smart_balanced": {
+    "description": "Smart balanced strategy version name"
+  },
+  "strategy_version_smart_optimized": "Smart Balanced (Optimized)",
+  "@strategy_version_smart_optimized": {
+    "description": "Smart optimized strategy version name"
+  },
+  "error_loading_levels": "Failed to load levels: {error}",
+  "@error_loading_levels": {
+    "description": "Error loading levels from JSON",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_loading_progress": "Failed to load progress: {error}",
+  "@error_loading_progress": {
+    "description": "Error loading game progress",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_saving_progress": "Failed to save progress: {error}",
+  "@error_saving_progress": {
+    "description": "Error saving game progress",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_clearing_progress": "Failed to clear progress: {error}",
+  "@error_clearing_progress": {
+    "description": "Error clearing game progress",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_loading_game_data": "Failed to load game data: {error}",
+  "@error_loading_game_data": {
+    "description": "Error loading game data",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_network_connection": "Network connection failed",
+  "@error_network_connection": {
+    "description": "Network connection error"
+  },
+  "error_google_sheets_connection": "Google Sheets connection failed",
+  "@error_google_sheets_connection": {
+    "description": "Google Sheets connection error"
+  },
+  "error_save_game_result": "Failed to save game result",
+  "@error_save_game_result": {
+    "description": "Error saving game result"
+  },
+  "error_clear_game_data": "Failed to clear game data",
+  "@error_clear_game_data": {
+    "description": "Error clearing game data"
+  },
+  "error_debug_function_unavailable": "Debug function temporarily unavailable",
+  "@error_debug_function_unavailable": {
+    "description": "Debug function not available"
+  },
+  "error_debug_set_card_failed": "Failed to set card: {error}",
+  "@error_debug_set_card_failed": {
+    "description": "Debug set card failed",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_app_initialization": "App initialization failed: {error}",
+  "@error_app_initialization": {
+    "description": "App initialization error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_storage_operation": "Storage operation error: {error}",
+  "@error_storage_operation": {
+    "description": "General storage operation error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "error_game_load_failed": "Game loading failed",
+  "@error_game_load_failed": {
+    "description": "Game loading failed message"
+  },
+  "success_game_reset": "Game has been reset",
+  "@success_game_reset": {
+    "description": "Game reset success message"
+  },
+  "success_cards_filled": "Cards randomly filled",
+  "@success_cards_filled": {
+    "description": "Cards filled success message"
+  },
+  "success_card_set": "Card set to: {card}",
+  "@success_card_set": {
+    "description": "Card set success message",
+    "placeholders": {
+      "card": {
+        "type": "String"
+      }
+    }
+  },
+  "success_data_cleared": "All records have been cleared",
+  "@success_data_cleared": {
+    "description": "Data cleared success message"
+  },
+  "success_data_saved": "Game result saved successfully",
+  "@success_data_saved": {
+    "description": "Data saved success message"
+  },
+  "tutorial_special_card_bomb": "Bomb Card: Click on placed cards to eliminate them",
+  "@tutorial_special_card_bomb": {
+    "description": "Bomb card usage instruction"
+  },
+  "tutorial_special_card_nine_grid": "Nine-Grid Card: Place in empty area to clear 3x3 surrounding cards",
+  "@tutorial_special_card_nine_grid": {
+    "description": "Nine-grid card usage instruction"
+  },
+  "tutorial_special_card_mimic": "Mimic Card: Place in empty area to become the most common surrounding number",
+  "@tutorial_special_card_mimic": {
+    "description": "Mimic card usage instruction"
+  },
+  "tutorial_special_card_unknown": "Special Card: Please check the usage instructions",
+  "@tutorial_special_card_unknown": {
+    "description": "Unknown special card instruction"
+  },
+  "tutorial_error_bomb_need_target": "Bomb card needs to click on existing cards to eliminate! Please select a placed card.",
+  "@tutorial_error_bomb_need_target": {
+    "description": "Bomb card error message - needs target"
+  },
+  "tutorial_error_mimic_need_empty": "Mimic card needs to be placed in empty area, it will automatically become the most common surrounding card type!",
+  "@tutorial_error_mimic_need_empty": {
+    "description": "Mimic card error message - needs empty space"
+  },
+  "tutorial_error_mimic_no_adjacent": "Mimic card has no adjacent number cards to mimic, cannot be used!",
+  "@tutorial_error_mimic_no_adjacent": {
+    "description": "Mimic card error message - no adjacent cards"
+  },
+  "tutorial_game_rules_title": "Game Rules",
+  "@tutorial_game_rules_title": {
+    "description": "Game rules section title"
+  },
+  "tutorial_game_rules_basic": "Place cards on the grid and merge identical adjacent numbers",
+  "@tutorial_game_rules_basic": {
+    "description": "Basic game rule explanation"
+  },
+  "tutorial_game_rules_objective": "Achieve target score or target number to complete the level",
+  "@tutorial_game_rules_objective": {
+    "description": "Game objective explanation"
+  },
+  "tutorial_game_rules_cards": "You have 2 hand cards + 1 storage slot available",
+  "@tutorial_game_rules_cards": {
+    "description": "Hand cards rule explanation"
+  },
+  "tutorial_game_rules_swap": "Each game allows 3 card swaps",
+  "@tutorial_game_rules_swap": {
+    "description": "Card swap rule explanation"
+  },
+  "tutorial_operation_instructions": "Operation Instructions",
+  "@tutorial_operation_instructions": {
+    "description": "Operation instructions title"
+  },
+  "tutorial_operation_place_card": "Tap empty grid to place cards",
+  "@tutorial_operation_place_card": {
+    "description": "How to place cards"
+  },
+  "tutorial_operation_merge": "Adjacent identical numbers will automatically merge",
+  "@tutorial_operation_merge": {
+    "description": "How merging works"
+  },
+  "tutorial_operation_special": "Special cards have unique placement rules",
+  "@tutorial_operation_special": {
+    "description": "Special cards operation hint"
+  },
+  "tutorial_hint_level_complete": "Complete tutorial levels to unlock more challenges",
+  "@tutorial_hint_level_complete": {
+    "description": "Tutorial completion hint"
+  },
+  "tutorial_hint_gradual_challenge": "Progress step by step, gradual challenge",
+  "@tutorial_hint_gradual_challenge": {
+    "description": "Level mode description hint"
+  },
+  "tutorial_hint_random_puzzle": "Random puzzles, free combination",
+  "@tutorial_hint_random_puzzle": {
+    "description": "Challenge mode description hint"
+  },
+  "error_code_bomb_card_need_target": "Bomb card needs to click on existing cards to eliminate!",
+  "@error_code_bomb_card_need_target": {
+    "description": "Bomb card error code message"
+  },
+  "error_code_mimic_card_need_empty": "Mimic card needs to be placed in empty area!",
+  "@error_code_mimic_card_need_empty": {
+    "description": "Mimic card error code message"
+  },
+  "error_code_mimic_card_no_adjacent": "Mimic card has no adjacent number cards to mimic!",
+  "@error_code_mimic_card_no_adjacent": {
+    "description": "Mimic card error code message"
+  },
+  "error_code_nine_grid_need_empty": "Nine-Grid card needs to be placed in empty area!",
+  "@error_code_nine_grid_need_empty": {
+    "description": "Nine-grid card error code message"
+  },
+  "card_type_bomb": "Bomb",
+  "@card_type_bomb": {
+    "description": "Bomb card type name"
+  },
+  "card_type_nine_grid": "Nine-Grid",
+  "@card_type_nine_grid": {
+    "description": "Nine-grid card type name"
+  },
+  "card_type_mimic": "Mimic",
+  "@card_type_mimic": {
+    "description": "Mimic card type name"
+  },
+  "card_type_unknown_special": "Unknown Special Card Type",
+  "@card_type_unknown_special": {
+    "description": "Unknown special card type message"
+  },
+  "ui_hand_cards_label": "HAND",
+  "@ui_hand_cards_label": {
+    "description": "Hand cards section label"
+  },
+  "ui_temp_storage_label": "TEMP STORAGE",
+  "@ui_temp_storage_label": {
+    "description": "Temporary storage section label"
+  },
+  "ui_loading_default": "Loading...",
+  "@ui_loading_default": {
+    "description": "Default loading message"
+  },
+  "ui_loading_game": "Loading game...",
+  "@ui_loading_game": {
+    "description": "Game loading message"
+  },
+  "ui_loading_semantic_default": "Loading",
+  "@ui_loading_semantic_default": {
+    "description": "Default loading semantic label"
+  },
+  "ui_loading_semantic_game": "Game loading",
+  "@ui_loading_semantic_game": {
+    "description": "Game loading semantic label"
+  },
+  "network_status_connected": "Network connected",
+  "@network_status_connected": {
+    "description": "Network connection status - connected"
+  },
+  "network_status_disconnected": "Network disconnected",
+  "@network_status_disconnected": {
+    "description": "Network connection status - disconnected"
+  },
+  "network_status_connecting": "Connecting",
+  "@network_status_connecting": {
+    "description": "Network connection status - connecting"
+  },
+  "network_status_reconnecting": "Reconnecting",
+  "@network_status_reconnecting": {
+    "description": "Network connection status - reconnecting"
+  },
+  "network_status_failed": "Connection failed",
+  "@network_status_failed": {
+    "description": "Network connection status - failed"
+  },
+  "page_title_level_selection": "Select Level",
+  "@page_title_level_selection": {
+    "description": "Level selection page title"
+  },
+  "page_title_game_history": "Game History",
+  "@page_title_game_history": {
+    "description": "Game history page title"
+  },
+  "page_text_no_game_records": "No game records yet",
+  "@page_text_no_game_records": {
+    "description": "No game records message"
+  },
+  "page_text_no_levels_available": "No levels available",
+  "@page_text_no_levels_available": {
+    "description": "No levels available message"
+  },
+  "page_text_reload": "Reload",
+  "@page_text_reload": {
+    "description": "Reload button text"
+  },
+  "page_text_game_progress": "Game Progress",
+  "@page_text_game_progress": {
+    "description": "Game progress section title"
+  },
+  "page_text_completed_levels": "Completed {completed} / {total} levels",
+  "@page_text_completed_levels": {
+    "description": "Completed levels progress text",
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "page_text_game_statistics": "Game Statistics",
+  "@page_text_game_statistics": {
+    "description": "Game statistics section title"
+  },
+  "page_text_total_games": "Total Games",
+  "@page_text_total_games": {
+    "description": "Total games label"
+  },
+  "page_text_best_score": "Best Score",
+  "@page_text_best_score": {
+    "description": "Best score label"
+  },
+  "page_text_average_score": "Average Score",
+  "@page_text_average_score": {
+    "description": "Average score label"
+  },
+  "page_text_total_play_time": "Total Play Time",
+  "@page_text_total_play_time": {
+    "description": "Total play time label"
+  },
+  "page_text_best_score_display": "Best: {score}",
+  "@page_text_best_score_display": {
+    "description": "Best score display format",
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "dialog_text_clear_all_records": "Are you sure you want to delete all game records? This action cannot be undone.",
+  "@dialog_text_clear_all_records": {
+    "description": "Clear all records confirmation text"
+  },
+  "dialog_title_clear_all_records": "Clear All Records",
+  "@dialog_title_clear_all_records": {
+    "description": "Clear all records dialog title"
+  },
+  "strategy_version_classic_description": "Original number generation logic, suitable for basic gameplay",
+  "@strategy_version_classic_description": {
+    "description": "Description for classic strategy version"
+  },
+  "strategy_version_simplified_description": "Simplified generation rules, easier to get started",
+  "@strategy_version_simplified_description": {
+    "description": "Description for simplified strategy version"
+  },
+  "strategy_version_balanced_description": "Balanced difficulty curve, suitable for most players",
+  "@strategy_version_balanced_description": {
+    "description": "Description for balanced strategy version"
+  },
+  "strategy_version_stable_description": "Stable game experience, reduces extreme situations",
+  "@strategy_version_stable_description": {
+    "description": "Description for stable strategy version"
+  },
+  "strategy_version_smart_balanced_description": "Intelligently adjusts difficulty, provides optimal game experience",
+  "@strategy_version_smart_balanced_description": {
+    "description": "Description for smart balanced strategy version"
+  },
+  "strategy_version_smart_optimized_description": "Optimized smart balance, solves large number proximity issues, takes care of isolated small numbers",
+  "@strategy_version_smart_optimized_description": {
+    "description": "Description for smart optimized strategy version"
+  },
+  "strategy_version_unknown": "Unknown Version",
+  "@strategy_version_unknown": {
+    "description": "Unknown strategy version fallback text"
+  },
+  "menu_section_game_modes": "Game Modes",
+  "@menu_section_game_modes": {
+    "description": "Game modes section title"
+  },
+  "menu_section_challenge_modes": "Challenge Modes",
+  "@menu_section_challenge_modes": {
+    "description": "Challenge modes section title"
+  },
+  "menu_mode_level_title": "Level Mode",
+  "@menu_mode_level_title": {
+    "description": "Level mode title"
+  },
+  "menu_mode_level_desc": "Progressive level challenges, perfect for learning game mechanics",
+  "@menu_mode_level_desc": {
+    "description": "Level mode description"
+  },
+  "menu_mode_challenge_infinite_title": "Infinite Numbers",
+  "@menu_mode_challenge_infinite_title": {
+    "description": "Infinite numbers challenge mode title"
+  },
+  "menu_mode_challenge_infinite_desc": "Numbers can exceed 13 and continue merging for higher scores",
+  "@menu_mode_challenge_infinite_desc": {
+    "description": "Infinite numbers challenge mode description"
+  },
+  "menu_mode_challenge_poker_title": "Classic Poker",
+  "@menu_mode_challenge_poker_title": {
+    "description": "Classic poker challenge mode title"
+  },
+  "menu_mode_challenge_poker_desc": "Numbers limited to 1-13, following traditional poker card rules",
+  "@menu_mode_challenge_poker_desc": {
+    "description": "Classic poker challenge mode description"
+  },
+  "menu_mode_challenge_infinite_toast": "Challenge Mode - Infinite Numbers: Numbers can exceed 13 and continue merging",
+  "@menu_mode_challenge_infinite_toast": {
+    "description": "Toast message for infinite numbers mode"
+  },
+  "menu_mode_challenge_poker_toast": "Challenge Mode - Classic Poker: Numbers limited to 1-13, following poker card rules",
+  "@menu_mode_challenge_poker_toast": {
+    "description": "Toast message for classic poker mode"
+  },
+  "menu_grid_size_selection": "Select Grid Size",
+  "@menu_grid_size_selection": {
+    "description": "Grid size selection label"
+  },
+  "account_management_title": "Account Management",
+  "account_current_user": "Current User",
+  "account_anonymous_user": "Anonymous User",
+  "account_registered_user": "Registered User",
+  "account_user_info": "User Information",
+  "account_user_id": "User ID",
+  "account_email": "Email",
+  "account_display_name": "Display Name",
+  "account_creation_time": "Account Created",
+  "account_last_signin": "Last Sign In",
+  "account_upgrade_section": "Upgrade Account",
+  "account_upgrade_title": "Link Your Account",
+  "account_upgrade_desc": "Link your email to save your game progress permanently",
+  "account_upgrade_benefits": "Benefits of linking your account:",
+  "account_upgrade_benefit_1": "- Save your game progress",
+  "account_upgrade_benefit_2": "- Access leaderboards",
+  "account_upgrade_benefit_3": "- Sync across devices",
+  "account_upgrade_button": "Upgrade Account",
+  "account_upgrade_with_google": "Link with Google",
+  "account_settings_section": "Account Settings",
+  "account_management_button": "Profile Management",
+  "account_logout_section": "Account Actions",
+  "game_mode_settings": "Game Mode Settings",
+  "challenge_mode": "Challenge Mode",
+  "level_mode": "Level Mode",
+  "tutorial_mode": "Tutorial Mode",
+  "account_logout_button": "Sign Out",
+  "account_logout_confirm_title": "Sign Out Confirmation",
+  "account_logout_confirm_message": "Are you sure you want to sign out?",
+  "account_logout_confirm_yes": "Sign Out",
+  "account_logout_confirm_no": "Cancel",
+  "account_logout_success": "Successfully signed out",
+  "account_upgrade_success": "Account upgraded successfully!",
+  "account_upgrade_error": "Failed to upgrade account",
+  "account_back_to_menu": "Back to Menu",
+  "menu_user_status_anonymous": "Guest",
+  "menu_user_status_signed_in": "Signed In",
+  "menu_account_button": "Account",
+  "leaderboard_title": "Leaderboard",
+  "@leaderboard_title": {
+    "description": "Leaderboard page title"
+  },
+  "leaderboard_loading": "Loading leaderboard...",
+  "@leaderboard_loading": {
+    "description": "Loading leaderboard message"
+  },
+  "leaderboard_no_data": "No leaderboard data available",
+  "@leaderboard_no_data": {
+    "description": "No leaderboard data message"
+  },
+  "leaderboard_load_more": "Load More",
+  "@leaderboard_load_more": {
+    "description": "Load more button text"
+  },
+  "leaderboard_grid_size": "Grid Size",
+  "@leaderboard_grid_size": {
+    "description": "Grid size selector label"
+  },
+  "leaderboard_ranking_type": "Ranking Type",
+  "@leaderboard_ranking_type": {
+    "description": "Ranking type selector label"
+  },
+  "leaderboard_anonymous_user": "Anonymous User",
+  "@leaderboard_anonymous_user": {
+    "description": "Anonymous user display name"
+  },
+  "leaderboard_game_time": "Game Time",
+  "@leaderboard_game_time": {
+    "description": "Game time label"
+  },
+  "leaderboard_created_time": "Created Time",
+  "@leaderboard_created_time": {
+    "description": "Created time label"
+  },
+  "leaderboard_game_details": "Game Details",
+  "@leaderboard_game_details": {
+    "description": "Game details dialog title"
+  },
+  "leaderboard_basic_info": "Basic Information",
+  "@leaderboard_basic_info": {
+    "description": "Basic information section title"
+  },
+  "leaderboard_game_data": "Game Data",
+  "@leaderboard_game_data": {
+    "description": "Game data section title"
+  },
+  "leaderboard_technical_info": "Technical Information",
+  "@leaderboard_technical_info": {
+    "description": "Technical information section title"
+  },
+  "leaderboard_player": "Player",
+  "@leaderboard_player": {
+    "description": "Player label"
+  },
+  "leaderboard_game_mode": "Game Mode",
+  "@leaderboard_game_mode": {
+    "description": "Game mode label"
+  },
+  "leaderboard_score": "Score",
+  "@leaderboard_score": {
+    "description": "Score label"
+  },
+  "leaderboard_steps": "Steps",
+  "@leaderboard_steps": {
+    "description": "Steps label"
+  },
+  "leaderboard_efficiency": "Efficiency",
+  "@leaderboard_efficiency": {
+    "description": "Efficiency label"
+  },
+  "leaderboard_max_value": "Max Value",
+  "@leaderboard_max_value": {
+    "description": "Maximum value label"
+  },
+  "leaderboard_min_value": "Min Value",
+  "@leaderboard_min_value": {
+    "description": "Minimum value label"
+  },
+  "leaderboard_math_strategy": "Math Strategy Version",
+  "@leaderboard_math_strategy": {
+    "description": "Math strategy version label"
+  },
+  "common_close": "Close",
+  "@common_close": {
+    "description": "Close button text"
+  },
+  "common_retry": "Retry",
+  "@common_retry": {
+    "description": "Retry button text"
+  },
+  "common_back": "Back",
+  "@common_back": {
+    "description": "Back button text"
+  },
+  "common_reconnect": "Reconnect",
+  "@common_reconnect": {
+    "description": "Reconnect button text"
+  },
+  "common_reload": "Reload",
+  "@common_reload": {
+    "description": "Reload button text"
+  },
+  "common_restart": "Restart",
+  "@common_restart": {
+    "description": "Restart button text"
+  },
+  "common_request_permission": "Request Permission",
+  "@common_request_permission": {
+    "description": "Request permission button text"
+  },
+  "error_network_failed": "Network connection failed, please check your network settings",
+  "@error_network_failed": {
+    "description": "Network error message"
+  },
+  "error_not_found": "Content not found",
+  "@error_not_found": {
+    "description": "Not found error message"
+  },
+  "error_server_failed": "Server error occurred, please try again later",
+  "@error_server_failed": {
+    "description": "Server error message"
+  },
+  "error_permission_denied": "You don't have permission to perform this action",
+  "@error_permission_denied": {
+    "description": "Permission denied error message"
+  },
+  "error_load_failed": "Failed to load",
+  "@error_load_failed": {
+    "description": "Load failed error message"
+  },
+  "error_game_failed": "Game error occurred",
+  "@error_game_failed": {
+    "description": "Game error message"
+  },
+  "error_no_content": "No content available",
+  "@error_no_content": {
+    "description": "No content message"
+  },
+  "error_unknown": "Unknown error occurred",
+  "@error_unknown": {
+    "description": "Unknown error message"
+  },
+  "error_code_prefix": "Error Code",
+  "@error_code_prefix": {
+    "description": "Error code prefix"
+  },
+  "game_history_score_label": "Score",
+  "@game_history_score_label": {
+    "description": "Score label in game history"
+  },
+  "game_history_time_label": "Time",
+  "@game_history_time_label": {
+    "description": "Time label in game history"
+  },
+  "game_history_steps_label": "Steps",
+  "@game_history_steps_label": {
+    "description": "Steps label in game history"
+  },
+  "game_history_game_time_label": "Game Time",
+  "@game_history_game_time_label": {
+    "description": "Game time label in game history"
+  },
+  "auth_email_label_simple": "Email",
+  "@auth_email_label_simple": {
+    "description": "Simple email label"
+  },
+  "auth_email_hint_simple": "Please enter your email",
+  "@auth_email_hint_simple": {
+    "description": "Simple email hint"
+  },
+  "auth_password_label_simple": "Password",
+  "@auth_password_label_simple": {
+    "description": "Simple password label"
+  },
+  "auth_password_hint_simple": "Please enter your password",
+  "@auth_password_hint_simple": {
+    "description": "Simple password hint"
+  },
+  "auth_email_required": "Please enter email",
+  "@auth_email_required": {
+    "description": "Email required validation message"
+  },
+  "auth_email_invalid": "Please enter a valid email",
+  "@auth_email_invalid": {
+    "description": "Email invalid validation message"
+  },
+  "auth_password_min_length": "Password must be at least 6 characters",
+  "@auth_password_min_length": {
+    "description": "Password minimum length validation message"
+  },
+  "auth_password_required": "Please enter password",
+  "@auth_password_required": {
+    "description": "Password required validation message"
+  },
+  "dialog_cancel": "Cancel",
+  "@dialog_cancel": {
+    "description": "Cancel button in dialogs"
+  },
+  "dialog_confirm": "Confirm",
+  "@dialog_confirm": {
+    "description": "Confirm button in dialogs"
+  },
+  "dialog_continue": "Continue",
+  "@dialog_continue": {
+    "description": "Continue button in dialogs"
+  },
+  "dialog_warning": "Warning",
+  "@dialog_warning": {
+    "description": "Warning dialog title"
+  },
+  "dialog_error_code": "Error Code",
+  "@dialog_error_code": {
+    "description": "Error code label in dialogs"
+  },
+  "dialog_score": "Score",
+  "@dialog_score": {
+    "description": "Score label in dialogs"
+  },
+  "dialog_best_score": "Best Score",
+  "@dialog_best_score": {
+    "description": "Best score label in dialogs"
+  },
+  "dialog_main_menu": "Main Menu",
+  "@dialog_main_menu": {
+    "description": "Main menu button in dialogs"
+  },
+  "dialog_share": "Share",
+  "@dialog_share": {
+    "description": "Share button in dialogs"
+  },
+  "dialog_restart": "Restart",
+  "@dialog_restart": {
+    "description": "Restart button in dialogs"
+  },
+  "menu_language_english": "English",
+  "@menu_language_english": {
+    "description": "English language option text"
+  },
+  "menu_language_chinese": "Chinese",
+  "@menu_language_chinese": {
+    "description": "Chinese language option text"
+  },
+  "account_logout_failed": "Logout failed",
+  "@account_logout_failed": {
+    "description": "Logout failed error message"
+  },
+  "menu_language_changed_english": "Language changed to English",
+  "@menu_language_changed_english": {
+    "description": "Language changed to English message"
+  },
+  "menu_language_changed_chinese": "Language changed to Chinese",
+  "@menu_language_changed_chinese": {
+    "description": "Language changed to Chinese message"
+  },
+  "menu_leaderboard_title": "Leaderboard",
+  "@menu_leaderboard_title": {
+    "description": "Leaderboard button title"
+  },
+  "menu_leaderboard_desc": "View global player rankings and scores",
+  "@menu_leaderboard_desc": {
+    "description": "Leaderboard button description"
+  },
+  "splash_game_title": "Merge Game",
+  "@splash_game_title": {
+    "description": "Game title on splash screen"
+  },
+  "splash_game_subtitle": "Card Merge Game",
+  "@splash_game_subtitle": {
+    "description": "Game subtitle on splash screen"
+  },
+  "splash_initializing": "Initializing...",
+  "@splash_initializing": {
+    "description": "Initializing message on splash screen"
+  },
+  "loading_checking_auth": "Checking login status...",
+  "@loading_checking_auth": {
+    "description": "Checking authentication status message"
+  },
+  "loading_authenticating": "Logging in...",
+  "@loading_authenticating": {
+    "description": "Authentication in progress message"
+  },
+  "loading_default": "Loading...",
+  "@loading_default": {
+    "description": "Default loading message"
+  },
+  "login_welcome_title": "Merge Game",
+  "login_welcome_subtitle": "Welcome back, ready to challenge the merge game!",
+  "login_terms_agreement": "By logging in, you agree to our Terms of Service and Privacy Policy",
+  "login_version_info": "Version 2.0.0",
+  "ui_back": "Back",
+  "ui_login": "Login",
+  "ui_close": "Close",
+  "ui_cancel": "Cancel",
+  "ui_retry": "Retry",
+  "ui_share": "Share",
+  "ui_main_menu": "Main Menu",
+  "ui_restart": "Restart",
+  "account_login_required": "Please login first to view account information",
+  "menu_language_flag_us": "🇺🇸",
+  "menu_language_flag_tw": "🇹🇼",
+  "menu_language_chinese_text": "Chinese",
+  "debug_mode_title": "🐛 Debug Mode",
+  "debug_set_special_card": "Set Special Card",
+  "debug_random_fill": "Random Fill Cards",
+  "debug_change_hand": "Change Hand Card",
+  "debug_reset_game": "Reset Game",
+  "debug_options": "Debug Options",
+  "debug_increase_swaps": "Increase Swap Count",
+  "debug_select_card": "Select Card to Set",
+  "debug_unavailable": "Debug function temporarily unavailable",
+  "debug_select_special": "🔮 Select Special Card",
+  "debug_select_hand": "🎯 Select Hand Card",
+  "stats_math_version": "Math Version:",
+  "stats_no_data": "No Data",
+  "stats_board_config": "Board Configuration",
+  "stats_board_simulation": "Board Simulation",
+  "stats_board_statistics": "Board Statistics",
+  "stats_number_frequency": "Number Frequency",
+  "stats_performance_indicators": "Performance Indicators",
+  "stats_no_data_available": "No data available",
+  "leaderboard_result_copied": "Result copied to clipboard",
+  "common_title_placeholder": "Title",
+  "auth_divider_or": "or",
+  "auth_login_anonymous_button": "Anonymous Login (Quick Experience)",
+  "auth_login_google_button": "Sign in with Google",
+  "auth_login_email_button": "Sign in with Email",
+  "leaderboard_total_cells": "Total Cells",
+  "leaderboard_estimated_fill_rate": "Fill Rate",
+  "leaderboard_board_simulation": "Board Simulation",
+  "leaderboard_board_statistics": "Board Statistics",
+  "leaderboard_highest_card": "Highest Card",
+  "leaderboard_lowest_card": "Lowest Card",
+  "leaderboard_card_range": "Card Range",
+  "leaderboard_avg_card_value": "Average Value",
+  "leaderboard_game_progress": "Game Progress",
+  "leaderboard_efficiency_trend": "Efficiency Trend",
+  "leaderboard_score_per_step": "pts/step",
+  "leaderboard_time_efficiency": "Time Efficiency",
+  "leaderboard_score_per_second": "pts/sec",
+  "leaderboard_game_pace": "Game Pace",
+  "leaderboard_seconds_per_move": "sec/move",
+  "leaderboard_number_distribution": "Number Distribution",
+  "leaderboard_merge_chains": "Merge Chains",
+  "leaderboard_number_frequency": "Number Frequency",
+  "leaderboard_merge_chain_distribution": "Merge Chain Distribution",
+  "leaderboard_performance_indicators": "Performance Indicators",
+  "leaderboard_most_frequent_number": "Most Frequent",
+  "leaderboard_number_variety": "Number Variety",
+  "leaderboard_longest_chain": "Longest Chain",
+  "leaderboard_total_merges": "Total Merges",
+  "leaderboard_game_rhythm": "Game Rhythm",
+  "leaderboard_steps_per_minute": "Steps/Min",
+  "leaderboard_score_per_minute": "Score/Min",
+  "leaderboard_play_time": "Play Time",
+  "leaderboard_gameMode_level": "Level Mode",
+  "leaderboard_gameMode_infiniteChallenge": "Infinite Challenge",
+  "leaderboard_gameMode_classicChallenge": "Classic Challenge",
+  "leaderboard_gridSize_3x3": "3x3",
+  "leaderboard_gridSize_4x4": "4x4",
+  "leaderboard_gridSize_5x5": "5x5",
+  "leaderboard_rankingType_score": "Score",
+  "leaderboard_rankingType_steps": "Steps",
+  "leaderboard_rankingType_efficiency": "Efficiency",
+  "leaderboard_tooltip_quick_replay": "Quick Replay",
+  "@leaderboard_tooltip_quick_replay": {
+    "description": "Tooltip for the quick replay button on a leaderboard item"
+  },
+  "leaderboardDetail_title": "Game Details",
+  "@leaderboardDetail_title": {
+    "description": "Title for the leaderboard detail page"
+  },
+  "leaderboardDetail_anonymousUser": "Anonymous User",
+  "@leaderboardDetail_anonymousUser": {
+    "description": "Display name for an anonymous user in the detail page"
+  },
+  "leaderboardDetail_tooltip_share": "Share Result",
+  "@leaderboardDetail_tooltip_share": {
+    "description": "Tooltip for the share button on the detail page"
+  },
+  "leaderboardDetail_metric_score": "Score",
+  "@leaderboardDetail_metric_score": {
+    "description": "Label for the score metric"
+  },
+  "leaderboardDetail_metric_steps": "Steps",
+  "@leaderboardDetail_metric_steps": {
+    "description": "Label for the steps metric"
+  },
+  "leaderboardDetail_metric_efficiency": "Efficiency",
+  "@leaderboardDetail_metric_efficiency": {
+    "description": "Label for the efficiency metric"
+  },
+  "leaderboardDetail_metric_gameTime": "Game Time",
+  "@leaderboardDetail_metric_gameTime": {
+    "description": "Label for the game time metric"
+  },
+  "leaderboardDetail_tab_overview": "Overview",
+  "@leaderboardDetail_tab_overview": {
+    "description": "Label for the Overview tab"
+  },
+  "leaderboardDetail_tab_statistics": "Statistics",
+  "@leaderboardDetail_tab_statistics": {
+    "description": "Label for the Statistics tab"
+  },
+  "leaderboardDetail_tab_boardView": "Board View",
+  "@leaderboardDetail_tab_boardView": {
+    "description": "Label for the Board View tab"
+  },
+  "leaderboardDetail_section_basicInfo": "Basic Information",
+  "@leaderboardDetail_section_basicInfo": {
+    "description": "Title for the basic information section"
+  },
+  "leaderboardDetail_field_gameMode": "Game Mode",
+  "@leaderboardDetail_field_gameMode": {
+    "description": "Label for the game mode field"
+  },
+  "leaderboardDetail_field_gridSize": "Grid Size",
+  "@leaderboardDetail_field_gridSize": {
+    "description": "Label for the grid size field"
+  },
+  "leaderboardDetail_field_rankingType": "Ranking Type",
+  "@leaderboardDetail_field_rankingType": {
+    "description": "Label for the ranking type field"
+  },
+  "leaderboardDetail_field_level": "Level",
+  "@leaderboardDetail_field_level": {
+    "description": "Label for the level field"
+  },
+  "leaderboardDetail_section_performance": "Performance",
+  "@leaderboardDetail_section_performance": {
+    "description": "Title for the performance section"
+  },
+  "leaderboardDetail_field_finalScore": "Final Score",
+  "@leaderboardDetail_field_finalScore": {
+    "description": "Label for the final score field"
+  },
+  "leaderboardDetail_field_totalSteps": "Total Steps",
+  "@leaderboardDetail_field_totalSteps": {
+    "description": "Label for the total steps field"
+  },
+  "leaderboardDetail_field_efficiencyScore": "Efficiency Score",
+  "@leaderboardDetail_field_efficiencyScore": {
+    "description": "Label for the efficiency score field"
+  },
+  "leaderboardDetail_field_playTime": "Play Time",
+  "@leaderboardDetail_field_playTime": {
+    "description": "Label for the play time field"
+  },
+  "leaderboardDetail_section_gameAnalysis": "Game Analysis",
+  "@leaderboardDetail_section_gameAnalysis": {
+    "description": "Title for the game analysis section"
+  },
+  "leaderboardDetail_field_highestCard": "Highest Card",
+  "@leaderboardDetail_field_highestCard": {
+    "description": "Label for the highest card field"
+  },
+  "leaderboardDetail_field_lowestCard": "Lowest Card",
+  "@leaderboardDetail_field_lowestCard": {
+    "description": "Label for the lowest card field"
+  },
+  "leaderboardDetail_field_avgScorePerStep": "Average Score per Step",
+  "@leaderboardDetail_field_avgScorePerStep": {
+    "description": "Label for the average score per step field"
+  },
+  "leaderboardDetail_section_technicalInfo": "Technical Info",
+  "@leaderboardDetail_section_technicalInfo": {
+    "description": "Title for the technical info section"
+  },
+  "leaderboardDetail_field_mathStrategy": "Math Strategy",
+  "@leaderboardDetail_field_mathStrategy": {
+    "description": "Label for the math strategy field"
+  },
+  "leaderboardDetail_snackbar_resultCopied": "Result copied to clipboard",
+  "@leaderboardDetail_snackbar_resultCopied": {
+    "description": "Snackbar message when results are copied"
+  },
+  "unsaved_changes": "Unsaved Changes",
+  "@unsaved_changes": {
+    "description": "Unsaved changes dialog title"
+  },
+  "unsaved_changes_message": "You have unsaved changes. Are you sure you want to leave?",
+  "@unsaved_changes_message": {
+    "description": "Unsaved changes dialog message"
+  },
+  "leave": "Leave",
+  "@leave": {
+    "description": "Leave button in unsaved changes dialog"
+  },
+  "account_management": "Account Management",
+  "@account_management": {
+    "description": "Account management page title"
+  },
+  "save_changes": "Save Changes",
+  "@save_changes": {
+    "description": "Save changes button tooltip"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button tooltip"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile tab title"
+  },
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences tab title"
+  },
+  "game_settings": "Game Settings",
+  "@game_settings": {
+    "description": "Game settings tab title"
+  },
+  "privacy": "Privacy",
+  "@privacy": {
+    "description": "Privacy tab title"
+  },
+  "no_user_profile": "No user profile found. Please create a profile first.",
+  "@no_user_profile": {
+    "description": "No user profile message"
+  },
+  "create_profile": "Create Profile",
+  "@create_profile": {
+    "description": "Create profile button"
+  },
+  "profile_information": "Profile Information",
+  "@profile_information": {
+    "description": "Profile information section title"
+  },
+  "display_name": "Display Name",
+  "@display_name": {
+    "description": "Display name field title"
+  },
+  "avatar": "Avatar",
+  "@avatar": {
+    "description": "Avatar field title"
+  },
+  "user_id": "User ID",
+  "@user_id": {
+    "description": "User ID field title"
+  },
+  "member_since": "Member Since",
+  "@member_since": {
+    "description": "Member since field title"
+  },
+  "account_type": "Account Type",
+  "@account_type": {
+    "description": "Account type field title"
+  },
+  "account_status": "Account Status",
+  "@account_status": {
+    "description": "Account status field title"
+  },
+  "last_sync": "Last Sync",
+  "@last_sync": {
+    "description": "Last sync field title"
+  },
+  "edit_nickname": "Edit Nickname",
+  "@edit_nickname": {
+    "description": "Edit nickname button"
+  },
+  "change_avatar": "Change Avatar",
+  "@change_avatar": {
+    "description": "Change avatar button"
+  },
+  "sync_profile": "Sync Profile",
+  "@sync_profile": {
+    "description": "Sync profile button"
+  },
+  "delete_account": "Delete Account",
+  "@delete_account": {
+    "description": "Delete account button"
+  },
+  "account_actions": "Account Actions",
+  "@account_actions": {
+    "description": "Account actions section title"
+  },
+  "sync_now": "Sync Now",
+  "@sync_now": {
+    "description": "Sync now button"
+  },
+  "sync_status": "Sync Status",
+  "@sync_status": {
+    "description": "Sync status field title"
+  },
+  "sync_success": "Sync successful",
+  "@sync_success": {
+    "description": "Sync success message"
+  },
+  "sync_error": "Sync failed",
+  "@sync_error": {
+    "description": "Sync error message"
+  },
+  "sync_never": "Never synced",
+  "@sync_never": {
+    "description": "Never synced message"
+  },
+  "avatar_coming_soon": "Avatar upload coming soon",
+  "@avatar_coming_soon": {
+    "description": "Avatar upload coming soon message"
+  },
+  "delete_account_warning": "Delete Account",
+  "@delete_account_warning": {
+    "description": "Delete account warning dialog title"
+  },
+  "delete_account_consequences": "Are you sure you want to delete your account? This action cannot be undone.",
+  "@delete_account_consequences": {
+    "description": "Delete account consequences message"
+  },
+  "confirm_delete": "Confirm Delete",
+  "@confirm_delete": {
+    "description": "Confirm delete button"
+  },
+  "account_deleted": "Account deleted successfully",
+  "@account_deleted": {
+    "description": "Account deleted success message"
+  },
+  "language_settings": "Language Settings",
+  "@language_settings": {
+    "description": "Language settings section title"
+  },
+  "display_language": "Display Language",
+  "@display_language": {
+    "description": "Display language field title"
+  },
+  "appearance_settings": "Appearance Settings",
+  "@appearance_settings": {
+    "description": "Appearance settings section title"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme field title"
+  },
+  "theme_will_change_on_restart": "Theme will change after app restart",
+  "@theme_will_change_on_restart": {
+    "description": "Theme change restart message"
+  },
+  "audio_settings": "Audio Settings",
+  "@audio_settings": {
+    "description": "Audio settings section title"
+  },
+  "sound_effects": "Sound Effects",
+  "@sound_effects": {
+    "description": "Sound effects field title"
+  },
+  "sound_enabled": "Sound enabled",
+  "@sound_enabled": {
+    "description": "Sound enabled status"
+  },
+  "sound_disabled": "Sound disabled",
+  "@sound_disabled": {
+    "description": "Sound disabled status"
+  },
+  "notification_settings": "Notification Settings",
+  "@notification_settings": {
+    "description": "Notification settings section title"
+  },
+  "push_notifications": "Push Notifications",
+  "@push_notifications": {
+    "description": "Push notifications field title"
+  },
+  "notification_description": "Receive notifications about game events",
+  "@notification_description": {
+    "description": "Notification description"
+  },
+  "usability_settings": "Usability Settings",
+  "@usability_settings": {
+    "description": "Usability settings section title"
+  },
+  "show_hints": "Show Hints",
+  "@show_hints": {
+    "description": "Show hints field title"
+  },
+  "hints_description": "Show helpful hints during gameplay",
+  "@hints_description": {
+    "description": "Hints description"
+  },
+  "auto_save": "Auto Save",
+  "@auto_save": {
+    "description": "Auto save field title"
+  },
+  "auto_save_description": "Automatically save game progress",
+  "@auto_save_description": {
+    "description": "Auto save description"
+  },
+  "light_theme": "Light Theme",
+  "@light_theme": {
+    "description": "Light theme option"
+  },
+  "dark_theme": "Dark Theme",
+  "@dark_theme": {
+    "description": "Dark theme option"
+  },
+  "system_theme": "System Theme",
+  "@system_theme": {
+    "description": "System theme option"
+  },
+  "language_changed": "Language Changed",
+  "@language_changed": {
+    "description": "Language changed dialog title"
+  },
+  "restart_app_message": "Please restart the app to apply the language change",
+  "@restart_app_message": {
+    "description": "Restart app message"
+  },
+  "gameplay_settings": "Gameplay Settings",
+  "@gameplay_settings": {
+    "description": "Gameplay settings section title"
+  },
+  "default_game_mode": "Default Game Mode",
+  "@default_game_mode": {
+    "description": "Default game mode field title"
+  },
+  "preferred_grid_size": "Preferred Grid Size",
+  "@preferred_grid_size": {
+    "description": "Preferred grid size field title"
+  },
+  "preferred_strategy": "Preferred Strategy",
+  "@preferred_strategy": {
+    "description": "Preferred strategy field title"
+  },
+  "display_settings": "Display Settings",
+  "@display_settings": {
+    "description": "Display settings section title"
+  },
+  "show_animations": "Show Animations",
+  "@show_animations": {
+    "description": "Show animations field title"
+  },
+  "animations_enabled": "Animations enabled",
+  "@animations_enabled": {
+    "description": "Animations enabled status"
+  },
+  "animations_disabled": "Animations disabled",
+  "@animations_disabled": {
+    "description": "Animations disabled status"
+  },
+  "animation_speed": "Animation Speed",
+  "@animation_speed": {
+    "description": "Animation speed field title"
+  },
+  "input_settings": "Input Settings",
+  "@input_settings": {
+    "description": "Input settings section title"
+  },
+  "vibration": "Vibration",
+  "@vibration": {
+    "description": "Vibration field title"
+  },
+  "vibration_enabled": "Vibration enabled",
+  "@vibration_enabled": {
+    "description": "Vibration enabled status"
+  },
+  "vibration_disabled": "Vibration disabled",
+  "@vibration_disabled": {
+    "description": "Vibration disabled status"
+  },
+  "performance_settings": "Performance Settings",
+  "@performance_settings": {
+    "description": "Performance settings section title"
+  },
+  "performance_tip": "Performance Tip",
+  "@performance_tip": {
+    "description": "Performance tip title"
+  },
+  "performance_tip_description": "Disable animations to improve performance on older devices",
+  "@performance_tip_description": {
+    "description": "Performance tip description"
+  },
+  "reset_to_recommended": "Reset to Recommended",
+  "@reset_to_recommended": {
+    "description": "Reset to recommended button"
+  },
+  "reset_settings_description": "Reset all settings to recommended defaults",
+  "@reset_settings_description": {
+    "description": "Reset settings description"
+  },
+  "grid": "Grid",
+  "@grid": {
+    "description": "Grid text"
+  },
+  "aggressive_strategy": "Aggressive Strategy",
+  "@aggressive_strategy": {
+    "description": "Aggressive strategy option"
+  },
+  "balanced_strategy": "Balanced Strategy",
+  "@balanced_strategy": {
+    "description": "Balanced strategy option"
+  },
+  "conservative_strategy": "Conservative Strategy",
+  "@conservative_strategy": {
+    "description": "Conservative strategy option"
+  },
+  "very_slow": "Very Slow",
+  "@very_slow": {
+    "description": "Very slow speed option"
+  },
+  "slow": "Slow",
+  "@slow": {
+    "description": "Slow speed option"
+  },
+  "normal": "Normal",
+  "@normal": {
+    "description": "Normal speed option"
+  },
+  "fast": "Fast",
+  "@fast": {
+    "description": "Fast speed option"
+  },
+  "very_fast": "Very Fast",
+  "@very_fast": {
+    "description": "Very fast speed option"
+  },
+  "select_animation_speed": "Select animation speed",
+  "@select_animation_speed": {
+    "description": "Select animation speed message"
+  },
+  "reset_settings": "Reset Settings",
+  "@reset_settings": {
+    "description": "Reset settings dialog title"
+  },
+  "reset_settings_warning": "Are you sure you want to reset all settings to defaults?",
+  "@reset_settings_warning": {
+    "description": "Reset settings warning message"
+  },
+  "settings_reset": "Settings reset successfully",
+  "@settings_reset": {
+    "description": "Settings reset success message"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button"
+  },
+  "privacy_overview": "Privacy Overview",
+  "@privacy_overview": {
+    "description": "Privacy overview section title"
+  },
+  "privacy_description": "We protect your privacy and give you control over your data.",
+  "@privacy_description": {
+    "description": "Privacy description"
+  },
+  "privacy_control_info": "You can control what information is shared and with whom.",
+  "@privacy_control_info": {
+    "description": "Privacy control info"
+  },
+  "data_visibility": "Data Visibility",
+  "@data_visibility": {
+    "description": "Data visibility section title"
+  },
+  "profile_visibility": "Profile Visibility",
+  "@profile_visibility": {
+    "description": "Profile visibility field title"
+  },
+  "profile_public": "Profile is public",
+  "@profile_public": {
+    "description": "Profile public status"
+  },
+  "profile_private": "Profile is private",
+  "@profile_private": {
+    "description": "Profile private status"
+  },
+  "statistics_visibility": "Statistics Visibility",
+  "@statistics_visibility": {
+    "description": "Statistics visibility field title"
+  },
+  "statistics_public": "Statistics are public",
+  "@statistics_public": {
+    "description": "Statistics public status"
+  },
+  "statistics_private": "Statistics are private",
+  "@statistics_private": {
+    "description": "Statistics private status"
+  },
+  "social_settings": "Social Settings",
+  "@social_settings": {
+    "description": "Social settings section title"
+  },
+  "allow_friend_requests": "Allow Friend Requests",
+  "@allow_friend_requests": {
+    "description": "Allow friend requests field title"
+  },
+  "friend_requests_description": "Allow other players to send you friend requests",
+  "@friend_requests_description": {
+    "description": "Friend requests description"
+  },
+  "share_achievements": "Share Achievements",
+  "@share_achievements": {
+    "description": "Share achievements field title"
+  },
+  "achievements_sharing_description": "Share your achievements with friends",
+  "@achievements_sharing_description": {
+    "description": "Achievements sharing description"
+  },
+  "data_control": "Data Control",
+  "@data_control": {
+    "description": "Data control section title"
+  },
+  "export_my_data": "Export My Data",
+  "@export_my_data": {
+    "description": "Export my data button"
+  },
+  "export_data_description": "Download a copy of your data",
+  "@export_data_description": {
+    "description": "Export data description"
+  },
+  "data_export": "Data Export",
+  "@data_export": {
+    "description": "Data export title"
+  },
+  "data_portability": "Data Portability",
+  "@data_portability": {
+    "description": "Data portability button"
+  },
+  "data_portability_description": "Transfer your data to another service",
+  "@data_portability_description": {
+    "description": "Data portability description"
+  },
+  "privacy_policy": "Privacy Policy",
+  "@privacy_policy": {
+    "description": "Privacy policy button"
+  },
+  "view_privacy_policy": "View our privacy policy",
+  "@view_privacy_policy": {
+    "description": "View privacy policy description"
+  },
+  "data_deletion_notice": "Data Deletion Notice",
+  "@data_deletion_notice": {
+    "description": "Data deletion notice title"
+  },
+  "data_deletion_warning": "Account deletion is permanent and cannot be undone.",
+  "@data_deletion_warning": {
+    "description": "Data deletion warning message"
+  },
+  "profile_private_warning": "Make Profile Private",
+  "@profile_private_warning": {
+    "description": "Profile private warning dialog title"
+  },
+  "profile_private_consequences": "Making your profile private will hide it from other players.",
+  "@profile_private_consequences": {
+    "description": "Profile private consequences message"
+  },
+  "statistics_private_warning": "Make Statistics Private",
+  "@statistics_private_warning": {
+    "description": "Statistics private warning dialog title"
+  },
+  "statistics_private_consequences": "Making your statistics private will hide them from leaderboards.",
+  "@statistics_private_consequences": {
+    "description": "Statistics private consequences message"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "privacy_policy_summary": "Privacy Policy Summary",
+  "@privacy_policy_summary": {
+    "description": "Privacy policy summary title"
+  },
+  "data_collection_info": "We collect minimal data necessary to provide our services.",
+  "@data_collection_info": {
+    "description": "Data collection info"
+  },
+  "data_usage_info": "Your data is used to improve your gaming experience.",
+  "@data_usage_info": {
+    "description": "Data usage info"
+  },
+  "data_sharing_info": "We do not share your personal data with third parties.",
+  "@data_sharing_info": {
+    "description": "Data sharing info"
+  },
+  "user_rights_info": "You have the right to access, modify, and delete your data.",
+  "@user_rights_info": {
+    "description": "User rights info"
+  },
+  "coming_soon": "Coming Soon",
+  "@coming_soon": {
+    "description": "Coming soon dialog title"
+  },
+  "coming_soon_message": "feature is coming soon!",
+  "@coming_soon_message": {
+    "description": "Coming soon message"
+  },
+  "nickname_edit_description": "Enter a new nickname for your profile",
+  "@nickname_edit_description": {
+    "description": "Nickname edit description"
+  },
+  "new_nickname": "New Nickname",
+  "@new_nickname": {
+    "description": "New nickname field title"
+  },
+  "enter_nickname": "Enter nickname",
+  "@enter_nickname": {
+    "description": "Enter nickname placeholder"
+  },
+  "nickname_format_hint": "3-20 characters, letters, numbers, and underscores only",
+  "@nickname_format_hint": {
+    "description": "Nickname format hint"
+  },
+  "checking_availability": "Checking availability...",
+  "@checking_availability": {
+    "description": "Checking availability message"
+  },
+  "nickname_available": "Nickname is available",
+  "@nickname_available": {
+    "description": "Nickname available message"
+  },
+  "nickname_unavailable": "Nickname is not available",
+  "@nickname_unavailable": {
+    "description": "Nickname unavailable message"
+  },
+  "suggested_nicknames": "Suggested Nicknames",
+  "@suggested_nicknames": {
+    "description": "Suggested nicknames title"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success message"
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning message"
+  },
+  "info": "Info",
+  "@info": {
+    "description": "Info message"
+  },
+  "avatar_feature": "Avatar feature coming soon",
+  "account_information": "Account Information",
+  "email": "Email",
+  "not_set": "Not set",
+  "email_change_feature": "Email change feature coming soon",
+  "last_active": "Last Active",
+  "sync_data": "Sync Data",
+  "sync_data_description": "Sync your game data to the cloud",
+  "export_data": "Export Data",
+  "export_feature": "Export feature coming soon",
+  "delete_account_description": "Permanently delete your account and all data",
+  "nickname_updated": "Nickname updated successfully",
+  "syncing": "Syncing...",
+  "sync_completed": "Sync completed successfully",
+  "sync_failed": "Sync failed",
+  "delete": "Delete",
+  "deleting_account": "Deleting account...",
+  "delete_failed": "Delete failed",
+  "delete_error": "Delete error",
+  "just_now": "Just now",
+  "minutes_ago": "{minutes} minutes ago",
+  "hours_ago": "{hours} hours ago",
+  "days_ago": "{days} days ago",
+  "unknown": "Unknown",
+  "anonymous_account": "Anonymous Account",
+  "email_account": "Email Account",
+  "social_account": "Social Account"
+}
