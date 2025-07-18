@@ -49,6 +49,159 @@
       }
     }
   },
+  "personal_leaderboard_title": "Personal Leaderboard",
+  "@personal_leaderboard_title": {
+    "description": "Personal leaderboard page title"
+  },
+  "personal_leaderboard_refresh": "Refresh",
+  "@personal_leaderboard_refresh": {
+    "description": "Refresh button tooltip"
+  },
+  "personal_leaderboard_loading": "Loading personal statistics...",
+  "@personal_leaderboard_loading": {
+    "description": "Loading message for personal statistics"
+  },
+  "personal_leaderboard_load_failed": "Failed to load",
+  "@personal_leaderboard_load_failed": {
+    "description": "Error message when loading fails"
+  },
+  "personal_leaderboard_load_error": "Failed to load personal statistics: {error}",
+  "@personal_leaderboard_load_error": {
+    "description": "Error message with details",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "personal_leaderboard_no_records": "No personal records yet\nGo to challenge mode to create your first record!",
+  "@personal_leaderboard_no_records": {
+    "description": "Message when no personal records exist"
+  },
+  "personal_leaderboard_overall_stats": "Overall Statistics",
+  "@personal_leaderboard_overall_stats": {
+    "description": "Overall statistics section title"
+  },
+  "personal_leaderboard_total_games": "Total Games",
+  "@personal_leaderboard_total_games": {
+    "description": "Total games played label"
+  },
+  "personal_leaderboard_total_play_time": "Total Play Time",
+  "@personal_leaderboard_total_play_time": {
+    "description": "Total play time label"
+  },
+  "personal_leaderboard_highest_score": "Highest Score",
+  "@personal_leaderboard_highest_score": {
+    "description": "Highest score label"
+  },
+  "personal_leaderboard_average_score": "Average Score",
+  "@personal_leaderboard_average_score": {
+    "description": "Average score label"
+  },
+  "personal_leaderboard_favorite_grid": "Favorite Grid",
+  "@personal_leaderboard_favorite_grid": {
+    "description": "Favorite grid size label"
+  },
+  "personal_leaderboard_favorite_mode": "Favorite Mode",
+  "@personal_leaderboard_favorite_mode": {
+    "description": "Favorite game mode label"
+  },
+  "personal_leaderboard_infinite_challenge": "Infinite Challenge",
+  "@personal_leaderboard_infinite_challenge": {
+    "description": "Infinite challenge game mode"
+  },
+  "personal_leaderboard_classic_challenge": "Classic Challenge",
+  "@personal_leaderboard_classic_challenge": {
+    "description": "Classic challenge game mode"
+  },
+  "personal_leaderboard_no_record": "No record yet",
+  "@personal_leaderboard_no_record": {
+    "description": "Message when no record exists for selected mode"
+  },
+  "personal_leaderboard_no_record_description": "Create your first record in {mode} on {gridSize} grid!",
+  "@personal_leaderboard_no_record_description": {
+    "description": "Description for no record message",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "gridSize": {
+        "type": "String"
+      }
+    }
+  },
+  "personal_leaderboard_highest_score_short": "Highest Score",
+  "@personal_leaderboard_highest_score_short": {
+    "description": "Short label for highest score"
+  },
+  "personal_leaderboard_fewest_steps": "Fewest Steps",
+  "@personal_leaderboard_fewest_steps": {
+    "description": "Fewest steps label"
+  },
+  "personal_leaderboard_best_efficiency": "Best Efficiency",
+  "@personal_leaderboard_best_efficiency": {
+    "description": "Best efficiency label"
+  },
+  "personal_leaderboard_recent_game": "Recent Game",
+  "@personal_leaderboard_recent_game": {
+    "description": "Recent game label"
+  },
+  "personal_leaderboard_game_mode": "Game Mode",
+  "@personal_leaderboard_game_mode": {
+    "description": "Game mode selector label"
+  },
+  "personal_leaderboard_grid_size": "Grid Size",
+  "@personal_leaderboard_grid_size": {
+    "description": "Grid size selector label"
+  },
+  "personal_leaderboard_infinite_desc": "Infinite Numbers",
+  "@personal_leaderboard_infinite_desc": {
+    "description": "Infinite challenge mode description"
+  },
+  "personal_leaderboard_classic_desc": "Poker Rules",
+  "@personal_leaderboard_classic_desc": {
+    "description": "Classic challenge mode description"
+  },
+  "personal_leaderboard_games_count": "{count} games",
+  "@personal_leaderboard_games_count": {
+    "description": "Games count with unit",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "personal_leaderboard_days_ago": "{days} days ago",
+  "@personal_leaderboard_days_ago": {
+    "description": "Days ago format",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "personal_leaderboard_hours_ago": "{hours} hours ago",
+  "@personal_leaderboard_hours_ago": {
+    "description": "Hours ago format",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "personal_leaderboard_minutes_ago": "{minutes} minutes ago",
+  "@personal_leaderboard_minutes_ago": {
+    "description": "Minutes ago format",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "personal_leaderboard_just_now": "Just now",
+  "@personal_leaderboard_just_now": {
+    "description": "Just now time format"
+  },
   "settings_merge_clear_area": "13+13 = Clear Area",
   "@settings_merge_clear_area": {
     "description": "Merge clear area option"
