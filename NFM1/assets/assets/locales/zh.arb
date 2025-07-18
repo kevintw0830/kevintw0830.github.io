@@ -78,6 +78,8 @@
   "dialog_section_game_settings": "遊戲設定",
   "dialog_stats_final_score": "最終分數",
   "dialog_stats_total_steps": "總步數",
+  "dialog_stats_personal_best": "個人最高分",
+  "dialog_stats_new_record": "🎉 恭喜！創造新紀錄！",
   "dialog_settings_math_strategy": "數學策略版本",
   "dialog_settings_merge_behavior": "13+13處理方式",
   "dialog_settings_item_restriction": "道具重複限制",

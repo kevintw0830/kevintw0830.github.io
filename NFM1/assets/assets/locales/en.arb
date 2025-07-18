@@ -257,6 +257,14 @@
   "@dialog_stats_total_steps": {
     "description": "Total steps label"
   },
+  "dialog_stats_personal_best": "Personal Best",
+  "@dialog_stats_personal_best": {
+    "description": "Label for personal best score shown in the game over dialog"
+  },
+  "dialog_stats_new_record": "🎉 Congratulations! New Record!",
+  "@dialog_stats_new_record": {
+    "description": "Message shown when player creates a new personal best record"
+  },
   "dialog_settings_math_strategy": "Math Strategy Version",
   "@dialog_settings_math_strategy": {
     "description": "Math strategy version label"
