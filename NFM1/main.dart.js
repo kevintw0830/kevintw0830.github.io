@@ -115834,7 +115834,7 @@ Date.now()
 p.w1(new A.Tm())
 A.K("\u2728 [GameLogic] \u6dfb\u52a0\u5361\u724c\u51fa\u73fe\u52d5\u756b: \u4f4d\u7f6e="+a+", \u6578\u503c="+o)
 s.push(A.pH(q.giM(),o,o,null,a,B.dR))
-A.K("\ud83d\udcca [GameLogic] \u653e\u7f6e\u5361\u724c\uff0c\u6b65\u6578\u589e\u52a0\u5230: "+ ++n.z)
+A.K("\ud83d\udcca [GameLogic] \u653e\u7f6e\u5361\u724c\uff0c\u6b65\u6578\u589e\u52a0\u5230: "+n.z)
 Date.now()
 p.w1(new A.a4a())
 A.K("\u23f0 [GameLogic] \u8a2d\u7f6e\u5408\u4f75\u5ef6\u9072: 200ms")
@@ -116146,15 +116146,20 @@ p===$&&A.b()
 s[1]=p.rO()}q.nD();++q.z
 return!0}}
 A.atZ.prototype={
-$0(){var s,r,q
+$0(){var s,r,q,p,o
 A.K("\u23f0 [GameLogic] \u5ef6\u9072\u6642\u9593\u5230\uff0c\u958b\u59cb\u5408\u4f75\u6aa2\u67e5")
 s=this.a
 r=s.ay
 A.K("\ud83d\udd0d [GameLogic] \u7576\u524d\u52d5\u756b\u6578\u91cf: "+r.length)
 A.K("\ud83d\udd0d [GameLogic] \u7576\u524d\u5361\u724c\u72c0\u614b: "+s.x.k(0))
 q=this.b
-if(s.au4(q))s.a8U(q)
-else{A.K("\ud83d\udd0d [GameLogic] \u6c92\u6709\u53ef\u5408\u4f75\u7684\u5361\u724c\uff0c\u6aa2\u67e5\u662f\u5426\u9700\u8981\u89f8\u767c\u904a\u6232\u689d\u4ef6")
+p=s.au4(q)
+o=s.z+1
+if(p){s.z=o
+A.K("\ud83c\udfae [GameLogic] \u767c\u73fe\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+o)
+s.a8U(q)}else{s.z=o
+A.K("\ud83c\udfae [GameLogic] \u6c92\u6709\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+o)
+A.K("\ud83d\udd0d [GameLogic] \u6c92\u6709\u53ef\u5408\u4f75\u7684\u5361\u724c\uff0c\u6aa2\u67e5\u662f\u5426\u9700\u8981\u89f8\u767c\u904a\u6232\u689d\u4ef6")
 if(r.length===0){A.K("\ud83d\udd0d [GameLogic] \u6c92\u6709\u52d5\u756b\uff0c\u89f8\u767c\u904a\u6232\u689d\u4ef6\u6aa2\u67e5")
 s=s.go
 if(s!=null)s.$0()}else A.K("\ud83d\udd0d [GameLogic] \u4ecd\u6709\u52d5\u756b\u9032\u884c\u4e2d\uff0c\u7b49\u5f85\u52d5\u756b\u5b8c\u6210")}},
