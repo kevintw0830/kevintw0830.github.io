@@ -2118,5 +2118,7 @@
   "your_rank": "Your Rank",
   "rank_position": "#{rank}",
   "percentile": "Percentile",
-  "top_percentage": "Top {percentage}%"
+  "top_percentage": "Top {percentage}%",
+  "daily_challenge_attempted_today": "Attempted Today",
+  "daily_challenge_try_again_tomorrow": "Try Again Tomorrow"
 }
