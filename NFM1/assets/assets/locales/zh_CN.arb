@@ -540,6 +540,7 @@
   "daily_challenge_rank": "目前排名：第 {rank} 名",
   "daily_challenge_congratulations": "恭喜完成今日挑战！明日再来挑战更高分数吧！",
   "daily_challenge_back_to_menu": "返回主菜单",
+  "daily_challenge_back_to_home": "返回首页",
   "daily_challenge_view_leaderboard": "查看排行榜",
   "daily_challenge_confirm_exit_title": "⚠️ 确认离开",
   "daily_challenge_confirm_exit_content": "离开每日挑战将无法保存进度，确定要离开吗？",
