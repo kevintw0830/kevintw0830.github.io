@@ -2120,5 +2120,6 @@
   "percentile": "Percentile",
   "top_percentage": "Top {percentage}%",
   "daily_challenge_attempted_today": "Attempted Today",
-  "daily_challenge_try_again_tomorrow": "Try Again Tomorrow"
+  "daily_challenge_try_again_tomorrow": "Try Again Tomorrow",
+  "replay_next_card": "Next Card"
 }

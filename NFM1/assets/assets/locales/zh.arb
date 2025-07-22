@@ -716,5 +716,6 @@
   "percentile": "百分比",
   "top_percentage": "前 {percentage}%",
   "daily_challenge_attempted_today": "今日已嘗試過",
-  "daily_challenge_try_again_tomorrow": "明日再來挑戰"
+  "daily_challenge_try_again_tomorrow": "明日再來挑戰",
+  "replay_next_card": "下一張卡牌"
 }
