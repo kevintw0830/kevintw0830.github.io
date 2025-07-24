@@ -116738,7 +116738,7 @@ r.dy=r.dx=0
 B.b.a1(r.fr)
 r.fx.a1(0)
 r.mD()},
-agZ(a){if("true".toLowerCase()==="true")return this.aUg(a)
+agZ(a){if("false".toLowerCase()==="true")return this.aUg(a)
 return this.aBw(a)},
 aUg(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=""+a
 A.B("\ud83d\ude80 [GameLogic-V2] \u4f7f\u7528\u65b0\u7248\u67b6\u69cb\u8655\u7406\u5361\u724c\u9ede\u64ca: "+h)
@@ -117406,23 +117406,19 @@ p=s==null?null:s.gd5()
 A.B("\ud83c\udfaf [GameLogic] \u52d5\u756b\u958b\u59cb\uff1a\u79fb\u9664\u4f4d\u7f6e "+q+" \u7684\u5361\u724c "+A.d(p))}r.ch.H(0,q)},
 $S:708}
 A.at0.prototype={
-$0(){var s,r,q,p,o
+$0(){var s,r,q,p
 A.B("\u23f0 [GameLogic] \u5ef6\u9072\u6642\u9593\u5230\uff0c\u958b\u59cb\u5408\u4f75\u6aa2\u67e5")
 s=this.a
-r=s.ay
-A.B("\ud83d\udd0d [GameLogic] \u7576\u524d\u52d5\u756b\u6578\u91cf: "+r.length)
+A.B("\ud83d\udd0d [GameLogic] \u7576\u524d\u52d5\u756b\u6578\u91cf: "+s.ay.length)
 A.B("\ud83d\udd0d [GameLogic] \u7576\u524d\u5361\u724c\u72c0\u614b: "+s.x.k(0))
-q=this.b
-p=s.a5S(q)
-o=s.z+1
-if(p){s.z=o
-A.B("\ud83c\udfae [GameLogic] \u767c\u73fe\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+o)
-s.aa1(q)}else{s.z=o
-A.B("\ud83c\udfae [GameLogic] \u6c92\u6709\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+o)
-A.B("\ud83d\udd0d [GameLogic] \u6c92\u6709\u53ef\u5408\u4f75\u7684\u5361\u724c\uff0c\u6aa2\u67e5\u662f\u5426\u9700\u8981\u89f8\u767c\u904a\u6232\u689d\u4ef6")
-if(r.length===0){A.B("\ud83d\udd0d [GameLogic] \u6c92\u6709\u52d5\u756b\uff0c\u89f8\u767c\u904a\u6232\u689d\u4ef6\u6aa2\u67e5")
-s=s.k4
-if(s!=null)s.$0()}else A.B("\ud83d\udd0d [GameLogic] \u4ecd\u6709\u52d5\u756b\u9032\u884c\u4e2d\uff0c\u7b49\u5f85\u52d5\u756b\u5b8c\u6210")}},
+r=this.b
+q=s.a5S(r)
+p=s.z+1
+if(q){s.z=p
+A.B("\ud83c\udfae [GameLogic] \u767c\u73fe\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+p)
+s.aa1(r)}else{s.z=p
+A.B("\ud83c\udfae [GameLogic] \u6c92\u6709\u5408\u4f75\uff0c\u589e\u52a0\u6b65\u6578: "+p)
+A.B("\ud83d\udd0d [GameLogic] \u6c92\u6709\u53ef\u5408\u4f75\u7684\u5361\u724c\uff0c\u7b49\u5f85\u6240\u6709\u52d5\u756b\u5b8c\u6210\u5f8c\u7531 updateAnimations \u89f8\u767c\u6aa2\u67e5")}},
 $S:0}
 A.atd.prototype={
 $1(a){return a.z>0},
