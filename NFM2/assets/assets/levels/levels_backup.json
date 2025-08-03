@@ -1,0 +1,5872 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "title": {
+        "zh": "基礎合併教學",
+        "en": "Basic Merge Tutorial",
+        "zh_CN": "基础合并教学"
+      },
+      "description": {
+        "zh": "學會1+1=2的基本合併",
+        "en": "Learn basic 1+1=2 merging",
+        "zh_CN": "学会1+1=2的基本合并"
+      },
+      "gridRows": 2,
+      "gridCols": 2,
+      "maxSteps": 5,
+      "targetScore": null,
+      "targetNumber": 2,
+      "allowedCardTypes": [
+        1
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 20,
+        "experience": 5,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "將兩個1合併成2！拖曳相同數字的卡牌到一起即可合併。",
+          "en": "Merge two 1s to make 2! Drag cards with the same number together to merge them.",
+          "zh_CN": "将两个1合并成2！拖拽相同数字的卡牌到一起即可合并。"
+        },
+        "fixedCardSequence": [
+          1,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 2,
+      "title": {
+        "zh": "多卡合併教學",
+        "en": "Multi-Card Merge Tutorial",
+        "zh_CN": "多卡合并教学"
+      },
+      "description": {
+        "zh": "學會多張相同卡牌的連鎖合併",
+        "en": "Learn chain merging of multiple same cards",
+        "zh_CN": "学会多张相同卡牌的连锁合并"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 8,
+      "targetScore": 15,
+      "targetNumber": 5,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 50,
+        "experience": 10,
+        "unlockItems": [
+          "tutorial_complete"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "按順序合併：1+1=2, 2+2=4, 4+1=5！多個相同數字會連續合併。",
+          "en": "Merge in sequence: 1+1=2, 2+2=4, 4+1=5! Multiple identical numbers will merge continuously.",
+          "zh_CN": "按顺序合并：1+1=2, 2+2=4, 4+1=5！多个相同数字会连续合并。"
+        },
+        "fixedCardSequence": [
+          1,
+          2,
+          3,
+          4,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 3,
+      "title": {
+        "zh": "初學者挑戰",
+        "en": "Beginner Challenge",
+        "zh_CN": "初学者挑战"
+      },
+      "description": {
+        "zh": "練習合併技巧與策略",
+        "en": "Practice merging skills and strategy",
+        "zh_CN": "练习合并技巧与策略"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 10,
+      "targetScore": 30,
+      "targetNumber": 4,
+      "allowedCardTypes": [
+        1,
+        2
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "cardType": 2,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 60,
+        "experience": 15,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "思考卡片的放置位置！嘗試將相同數字的卡片放在相鄰位置來提高合併效率。",
+          "en": "Think about card placement! Try to place cards with the same number adjacent to each other for efficient merging.",
+          "zh_CN": "思考卡片的放置位置！尝试将相同数字的卡片放在相邻位置来提高合并效率。"
+        },
+        "fixedCardSequence": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 4,
+      "title": {
+        "zh": "儲存槽教學",
+        "en": "Storage Slot Tutorial",
+        "zh_CN": "存储槽教学"
+      },
+      "description": {
+        "zh": "學習使用儲存槽保存重要的卡片",
+        "en": "Learn to use storage slot to save important cards",
+        "zh_CN": "学习使用存储槽保存重要的卡片"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 40,
+      "targetNumber": 5,
+      "allowedCardTypes": [
+        1,
+        2,
+        3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 70,
+        "experience": 20,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "點擊右上角的儲存槽可以暫存一張卡片以便後用。合理運用儲存槽可以幫助你更好地規劃！",
+          "en": "Click the storage slot in the upper right to temporarily store a card for later use. Smart use of storage helps you plan better!",
+          "zh_CN": "点击右上角的存储槽可以暂存一张卡片以便后用。合理运用存储槽可以帮助你更好地规划！"
+        },
+        "fixedCardSequence": [
+          3,
+          1,
+          1,
+          2,
+          2,
+          3,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 5,
+      "title": {
+        "zh": "空間管理挑戰",
+        "en": "Space Management Challenge",
+        "zh_CN": "空间管理挑战"
+      },
+      "description": {
+        "zh": "學習管理有限的棋盤空間",
+        "en": "Learn to manage limited board space",
+        "zh_CN": "学习管理有限的棋盘空间"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 15,
+      "targetScore": 60,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 4,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 80,
+        "experience": 25,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "空間有限，要合理規劃！嘗試將相同的數字集中在一起，避免棋盤被填滿而無法操作。",
+          "en": "Space is limited, plan wisely! Try to group same numbers together and avoid filling the board completely.",
+          "zh_CN": "空间有限，要合理规划！尝试将相同的数字集中在一起，避免棋盘被填满而无法操作。"
+        },
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 6,
+      "title": {
+        "zh": "交換手牌教學",
+        "en": "Hand Cards Swap Tutorial",
+        "zh_CN": "交换手牌教学"
+      },
+      "description": {
+        "zh": "學習使用交換手牌功能",
+        "en": "Learn to use hand cards swap feature",
+        "zh_CN": "学习使用交换手牌功能"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 80,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        4
+      ],
+      "preplacedCards": [
+        {
+          "row": 1,
+          "col": 1,
+          "cardType": 4,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 100,
+        "experience": 30,
+        "unlockItems": [
+          "swap_extra"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "點擊手牌區域可以交換當前的兩張手牌！這個功能可以幫你在關鍵時刻獲得需要的卡片。每局有3次交換機會。",
+          "en": "Click the hand cards area to swap your two current cards! This feature helps you get the cards you need at crucial moments. You have 3 swaps per game.",
+          "zh_CN": "点击手牌区域可以交换当前的两张手牌！这个功能可以帮你在关键时刻获得需要的卡片。每局有3次交换机会。"
+        },
+        "fixedCardSequence": [
+          2,
+          1,
+          4,
+          2,
+          4,
+          1,
+          2
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 7,
+      "title": {
+        "zh": "炸彈卡教學",
+        "en": "Bomb Card Tutorial",
+        "zh_CN": "炸弹卡教学"
+      },
+      "description": {
+        "zh": "學習使用炸彈卡清除障礙",
+        "en": "Learn to use bomb cards to clear obstacles",
+        "zh_CN": "学习使用炸弹卡清除障碍"
+      },
+      "gridRows": 3,
+      "gridCols": 4,
+      "maxSteps": 14,
+      "targetScore": 90,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 1,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "cardType": 7,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 120,
+        "experience": 35,
+        "unlockItems": [
+          "bomb_card"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "炸彈卡可以摧毀任何一張已放置的卡片！當棋盤被困住或需要清除障礙時，炸彈卡是你的救星。",
+          "en": "Bomb cards can destroy any placed card! When the board is stuck or you need to clear obstacles, bomb cards are your savior.",
+          "zh_CN": "炸弹卡可以摧毁任何一张已放置的卡片！当棋盘被困住或需要清除障碍时，炸弹卡是你的救星。"
+        },
+        "fixedCardSequence": [
+          -1,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 8,
+      "title": {
+        "zh": "九宮格消除卡教學",
+        "en": "Nine-Grid Clear Card Tutorial",
+        "zh_CN": "九宫格消除卡教学"
+      },
+      "description": {
+        "zh": "學習使用九宮格消除卡",
+        "en": "Learn to use nine-grid clear cards",
+        "zh_CN": "学习使用九宫格消除卡"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 16,
+      "targetScore": 120,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        -2
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 2,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 150,
+        "experience": 40,
+        "unlockItems": [
+          "ninegrid_card"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "九宮格消除卡可以一次性消除它周圍3x3範圍內的所有卡片！利用它來清理棋盤和獲得額外分數。",
+          "en": "Nine-grid clear cards can eliminate all cards in a 3x3 area around them at once! Use them to clear the board and gain extra points.",
+          "zh_CN": "九宫格消除卡可以一次性消除它周围3x3范围内的所有卡片！利用它来清理棋盘和获得额外分数。"
+        },
+        "fixedCardSequence": [
+          -2,
+          2,
+          3,
+          1,
+          2
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 9,
+      "title": {
+        "zh": "模仿卡教學",
+        "en": "Mimic Card Tutorial",
+        "zh_CN": "模仿卡教学"
+      },
+      "description": {
+        "zh": "學習使用模仿卡",
+        "en": "Learn to use mimic cards",
+        "zh_CN": "学习使用模仿卡"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 18,
+      "targetScore": 150,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        2,
+        3,
+        4,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 1,
+          "col": 1,
+          "cardType": 6,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "cardType": 6,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 180,
+        "experience": 45,
+        "unlockItems": [
+          "mimic_card"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "模仿卡可以變成它周圍出現最多的數字！如果有多個相同頻率的數字，它會變成數值最大的那個。",
+          "en": "Mimic cards can transform into the most common number around them! If there are multiple numbers with the same frequency, it becomes the largest one.",
+          "zh_CN": "模仿卡可以变成它周围出现最多的数字！如果有多个相同频率的数字，它会变成数值最大的那个。"
+        },
+        "fixedCardSequence": [
+          -3,
+          2,
+          4,
+          -3,
+          3
+        ],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 10,
+      "title": {
+        "zh": "綜合挑戰",
+        "en": "Comprehensive Challenge",
+        "zh_CN": "综合挑战"
+      },
+      "description": {
+        "zh": "運用所有學到的機制完成最終挑戰",
+        "en": "Use all learned mechanics to complete the final challenge",
+        "zh_CN": "运用所有学到的机制完成最终挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 200,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "cardType": 8,
+          "isLocked": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 8,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 250,
+        "experience": 60,
+        "unlockItems": [
+          "advanced_mode"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "這是一場綜合挑戰！運用你學到的所有技巧來達成目標。合理使用特殊卡片、儲存槽和交換功能。",
+          "en": "This is a comprehensive challenge! Use all the skills you've learned to achieve the goal. Make smart use of special cards, storage slots, and swap functions.",
+          "zh_CN": "这是一场综合挑战！运用你学到的所有技巧来达成目标。合理使用特殊卡片、存储槽和交换功能。"
+        },
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "tutorial"
+    },
+    {
+      "levelId": 11,
+      "title": {
+        "zh": "大數字挑戰",
+        "en": "Big Number Challenge",
+        "zh_CN": "大数字挑战"
+      },
+      "description": {
+        "zh": "創造更大的數字",
+        "en": "Create bigger numbers",
+        "zh_CN": "创造更大的数字"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 100,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 100,
+        "experience": 25,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 12,
+      "title": {
+        "zh": "限制卡牌",
+        "en": "Limited Cards",
+        "zh_CN": "限制卡牌"
+      },
+      "description": {
+        "zh": "只使用1和2創造高分",
+        "en": "Create high scores with only 1s and 2s",
+        "zh_CN": "只使用1和2创造高分"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 15,
+      "targetScore": 120,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2
+      ],
+      "preplacedCards": [
+        {
+          "row": 1,
+          "col": 1,
+          "cardType": 2,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 110,
+        "experience": 30,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 13,
+      "title": {
+        "zh": "預設挑戰",
+        "en": "Preset Challenge",
+        "zh_CN": "预设挑战"
+      },
+      "description": {
+        "zh": "利用預設的卡片達成目標",
+        "en": "Use preset cards to achieve goals",
+        "zh_CN": "利用预设的卡片达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 10,
+      "targetScore": 80,
+      "targetNumber": 6,
+      "allowedCardTypes": [
+        1,
+        2,
+        3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 120,
+        "experience": 35,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 14,
+      "title": {
+        "zh": "連鎖反應",
+        "en": "Chain Reaction",
+        "zh_CN": "连锁反应"
+      },
+      "description": {
+        "zh": "創造連鎖合併獲得高分",
+        "en": "Create chain merges for high scores",
+        "zh_CN": "创造连锁合并获得高分"
+      },
+      "gridRows": 4,
+      "gridCols": 3,
+      "maxSteps": 14,
+      "targetScore": 150,
+      "targetNumber": 7,
+      "allowedCardTypes": [
+        1,
+        2,
+        3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 1,
+          "cardType": 1,
+          "isLocked": false
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "cardType": 1,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 130,
+        "experience": 40,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [
+          1,
+          1,
+          2,
+          1,
+          3,
+          2,
+          1,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 15,
+      "title": {
+        "zh": "空間管理進階",
+        "en": "Advanced Space Management",
+        "zh_CN": "空间管理进阶"
+      },
+      "description": {
+        "zh": "在更大的棋盤上管理空間",
+        "en": "Manage space on a larger board",
+        "zh_CN": "在更大的棋盘上管理空间"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 18,
+      "targetScore": 200,
+      "targetNumber": 9,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 140,
+        "experience": 45,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 16,
+      "title": {
+        "zh": "炸彈策略",
+        "en": "Bomb Strategy",
+        "zh_CN": "炸弹策略"
+      },
+      "description": {
+        "zh": "善用炸彈清理棋盤",
+        "en": "Use bombs wisely to clear the board",
+        "zh_CN": "善用炸弹清理棋盘"
+      },
+      "gridRows": 3,
+      "gridCols": 4,
+      "maxSteps": 16,
+      "targetScore": 180,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        2,
+        3,
+        4,
+        5,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 150,
+        "experience": 50,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [
+          -1,
+          2,
+          3,
+          4,
+          -1,
+          3,
+          2,
+          4
+        ],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 17,
+      "title": {
+        "zh": "九宮格大師",
+        "en": "Nine-Grid Master",
+        "zh_CN": "九宫格大师"
+      },
+      "description": {
+        "zh": "掌握九宮格的使用時機",
+        "en": "Master the timing of nine-grid cards",
+        "zh_CN": "掌握九宫格的使用时机"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 20,
+      "targetScore": 250,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        -2
+      ],
+      "preplacedCards": [
+        {
+          "row": 1,
+          "col": 1,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "cardType": 2,
+          "isLocked": false
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 2,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 160,
+        "experience": 55,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [
+          1,
+          3,
+          -2,
+          1,
+          2,
+          3,
+          -2,
+          1
+        ],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 18,
+      "title": {
+        "zh": "模仿卡應用",
+        "en": "Mimic Card Application",
+        "zh_CN": "模仿卡应用"
+      },
+      "description": {
+        "zh": "巧妙使用模仿卡",
+        "en": "Use mimic cards cleverly",
+        "zh_CN": "巧妙使用模仿卡"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 22,
+      "targetScore": 300,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        3,
+        4,
+        5,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": false
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "cardType": 4,
+          "isLocked": false
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": false
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 5,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 170,
+        "experience": 60,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [
+          -3,
+          3,
+          4,
+          -3,
+          5,
+          3,
+          -3,
+          4
+        ],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 19,
+      "title": {
+        "zh": "綜合技巧",
+        "en": "Comprehensive Skills",
+        "zh_CN": "综合技巧"
+      },
+      "description": {
+        "zh": "運用所有特殊卡片",
+        "en": "Use all special cards",
+        "zh_CN": "运用所有特殊卡片"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 350,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 180,
+        "experience": 65,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 20,
+      "title": {
+        "zh": "數字進階畢業",
+        "en": "Number Advanced Graduation",
+        "zh_CN": "数字进阶毕业"
+      },
+      "description": {
+        "zh": "完成數字進階的最終挑戰",
+        "en": "Complete the final challenge of number advanced",
+        "zh_CN": "完成数字进阶的最终挑战"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 30,
+      "targetScore": 500,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 8,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "cardType": 8,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "cardType": 8,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 8,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 200,
+        "experience": 80,
+        "unlockItems": [
+          "number_master"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 21,
+      "title": {
+        "zh": "空間挑戰 1",
+        "en": "Space Challenge 1",
+        "zh_CN": "空间挑战 1"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 12,
+      "targetScore": 100,
+      "targetNumber": 6,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 150,
+        "experience": 40,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 22,
+      "title": {
+        "zh": "空間挑戰 2",
+        "en": "Space Challenge 2",
+        "zh_CN": "空间挑战 2"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 14,
+      "targetScore": 120,
+      "targetNumber": 6,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 160,
+        "experience": 43,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 23,
+      "title": {
+        "zh": "空間挑戰 3",
+        "en": "Space Challenge 3",
+        "zh_CN": "空间挑战 3"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 16,
+      "targetScore": 140,
+      "targetNumber": 6,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 170,
+        "experience": 46,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 24,
+      "title": {
+        "zh": "空間挑戰 4",
+        "en": "Space Challenge 4",
+        "zh_CN": "空间挑战 4"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 18,
+      "targetScore": 160,
+      "targetNumber": 7,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 180,
+        "experience": 49,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 25,
+      "title": {
+        "zh": "空間挑戰 5",
+        "en": "Space Challenge 5",
+        "zh_CN": "空间挑战 5"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 20,
+      "targetScore": 180,
+      "targetNumber": 7,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 190,
+        "experience": 52,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 26,
+      "title": {
+        "zh": "空間挑戰 6",
+        "en": "Space Challenge 6",
+        "zh_CN": "空间挑战 6"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 22,
+      "targetScore": 200,
+      "targetNumber": 7,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 200,
+        "experience": 55,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 27,
+      "title": {
+        "zh": "空間挑戰 7",
+        "en": "Space Challenge 7",
+        "zh_CN": "空间挑战 7"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 24,
+      "targetScore": 220,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 210,
+        "experience": 58,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 28,
+      "title": {
+        "zh": "空間挑戰 8",
+        "en": "Space Challenge 8",
+        "zh_CN": "空间挑战 8"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 26,
+      "targetScore": 240,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 220,
+        "experience": 61,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 29,
+      "title": {
+        "zh": "空間挑戰 9",
+        "en": "Space Challenge 9",
+        "zh_CN": "空间挑战 9"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 28,
+      "targetScore": 260,
+      "targetNumber": 8,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 3,
+          "isLocked": false
+        }
+      ],
+      "rewards": {
+        "coins": 230,
+        "experience": 64,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 30,
+      "title": {
+        "zh": "空間挑戰 10",
+        "en": "Space Challenge 10",
+        "zh_CN": "空间挑战 10"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 30,
+      "targetScore": 280,
+      "targetNumber": 9,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 4,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 240,
+        "experience": 67,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "beginner"
+    },
+    {
+      "levelId": 31,
+      "title": {
+        "zh": "空間挑戰 11",
+        "en": "Space Challenge 11",
+        "zh_CN": "空间挑战 11"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 32,
+      "targetScore": 300,
+      "targetNumber": 9,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 4,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 250,
+        "experience": 70,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 32,
+      "title": {
+        "zh": "空間挑戰 12",
+        "en": "Space Challenge 12",
+        "zh_CN": "空间挑战 12"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 34,
+      "targetScore": 320,
+      "targetNumber": 9,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 4,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 260,
+        "experience": 73,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 33,
+      "title": {
+        "zh": "空間挑戰 13",
+        "en": "Space Challenge 13",
+        "zh_CN": "空间挑战 13"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 36,
+      "targetScore": 340,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 4,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 270,
+        "experience": 76,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 34,
+      "title": {
+        "zh": "空間挑戰 14",
+        "en": "Space Challenge 14",
+        "zh_CN": "空间挑战 14"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 38,
+      "targetScore": 360,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 4,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 4,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 280,
+        "experience": 79,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 35,
+      "title": {
+        "zh": "空間挑戰 15",
+        "en": "Space Challenge 15",
+        "zh_CN": "空间挑战 15"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 40,
+      "targetScore": 380,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 290,
+        "experience": 82,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 36,
+      "title": {
+        "zh": "空間挑戰 16",
+        "en": "Space Challenge 16",
+        "zh_CN": "空间挑战 16"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 42,
+      "targetScore": 400,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 300,
+        "experience": 85,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 37,
+      "title": {
+        "zh": "空間挑戰 17",
+        "en": "Space Challenge 17",
+        "zh_CN": "空间挑战 17"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 44,
+      "targetScore": 420,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 310,
+        "experience": 88,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 38,
+      "title": {
+        "zh": "空間挑戰 18",
+        "en": "Space Challenge 18",
+        "zh_CN": "空间挑战 18"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 46,
+      "targetScore": 440,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 320,
+        "experience": 91,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 39,
+      "title": {
+        "zh": "空間挑戰 19",
+        "en": "Space Challenge 19",
+        "zh_CN": "空间挑战 19"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 48,
+      "targetScore": 460,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 5,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 5,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 330,
+        "experience": 94,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 40,
+      "title": {
+        "zh": "空間挑戰 20",
+        "en": "Space Challenge 20",
+        "zh_CN": "空间挑战 20"
+      },
+      "description": {
+        "zh": "在有限空間中達成目標",
+        "en": "Achieve goals in limited space",
+        "zh_CN": "在有限空间中达成目标"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 50,
+      "targetScore": 480,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 6,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 6,
+          "isLocked": true
+        }
+      ],
+      "rewards": {
+        "coins": 340,
+        "experience": 97,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 41,
+      "title": {
+        "zh": "混合挑戰 1",
+        "en": "Mixed Challenge 1",
+        "zh_CN": "混合挑战 1"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 20,
+      "targetScore": 200,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 250,
+        "experience": 60,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 42,
+      "title": {
+        "zh": "混合挑戰 2",
+        "en": "Mixed Challenge 2",
+        "zh_CN": "混合挑战 2"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 20,
+      "targetScore": 225,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 265,
+        "experience": 64,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 43,
+      "title": {
+        "zh": "混合挑戰 3",
+        "en": "Mixed Challenge 3",
+        "zh_CN": "混合挑战 3"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 21,
+      "targetScore": 250,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 280,
+        "experience": 68,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 44,
+      "title": {
+        "zh": "混合挑戰 4",
+        "en": "Mixed Challenge 4",
+        "zh_CN": "混合挑战 4"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 21,
+      "targetScore": 275,
+      "targetNumber": 10,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 295,
+        "experience": 72,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 45,
+      "title": {
+        "zh": "混合挑戰 5",
+        "en": "Mixed Challenge 5",
+        "zh_CN": "混合挑战 5"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 22,
+      "targetScore": 300,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 310,
+        "experience": 76,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 46,
+      "title": {
+        "zh": "混合挑戰 6",
+        "en": "Mixed Challenge 6",
+        "zh_CN": "混合挑战 6"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 22,
+      "targetScore": 325,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 325,
+        "experience": 80,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 47,
+      "title": {
+        "zh": "混合挑戰 7",
+        "en": "Mixed Challenge 7",
+        "zh_CN": "混合挑战 7"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 23,
+      "targetScore": 350,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 340,
+        "experience": 84,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 48,
+      "title": {
+        "zh": "混合挑戰 8",
+        "en": "Mixed Challenge 8",
+        "zh_CN": "混合挑战 8"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 23,
+      "targetScore": 375,
+      "targetNumber": 11,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 355,
+        "experience": 88,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 49,
+      "title": {
+        "zh": "混合挑戰 9",
+        "en": "Mixed Challenge 9",
+        "zh_CN": "混合挑战 9"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 24,
+      "targetScore": 400,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 370,
+        "experience": 92,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 50,
+      "title": {
+        "zh": "混合挑戰 10",
+        "en": "Mixed Challenge 10",
+        "zh_CN": "混合挑战 10"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 24,
+      "targetScore": 425,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 385,
+        "experience": 96,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 51,
+      "title": {
+        "zh": "混合挑戰 11",
+        "en": "Mixed Challenge 11",
+        "zh_CN": "混合挑战 11"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 450,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 400,
+        "experience": 100,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 52,
+      "title": {
+        "zh": "混合挑戰 12",
+        "en": "Mixed Challenge 12",
+        "zh_CN": "混合挑战 12"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 475,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 415,
+        "experience": 104,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 53,
+      "title": {
+        "zh": "混合挑戰 13",
+        "en": "Mixed Challenge 13",
+        "zh_CN": "混合挑战 13"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 26,
+      "targetScore": 500,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 430,
+        "experience": 108,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 54,
+      "title": {
+        "zh": "混合挑戰 14",
+        "en": "Mixed Challenge 14",
+        "zh_CN": "混合挑战 14"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 26,
+      "targetScore": 525,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 445,
+        "experience": 112,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 55,
+      "title": {
+        "zh": "混合挑戰 15",
+        "en": "Mixed Challenge 15",
+        "zh_CN": "混合挑战 15"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 27,
+      "targetScore": 550,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 460,
+        "experience": 116,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 56,
+      "title": {
+        "zh": "混合挑戰 16",
+        "en": "Mixed Challenge 16",
+        "zh_CN": "混合挑战 16"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 27,
+      "targetScore": 575,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 475,
+        "experience": 120,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 57,
+      "title": {
+        "zh": "混合挑戰 17",
+        "en": "Mixed Challenge 17",
+        "zh_CN": "混合挑战 17"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 28,
+      "targetScore": 600,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 490,
+        "experience": 124,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 58,
+      "title": {
+        "zh": "混合挑戰 18",
+        "en": "Mixed Challenge 18",
+        "zh_CN": "混合挑战 18"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 28,
+      "targetScore": 625,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 505,
+        "experience": 128,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 59,
+      "title": {
+        "zh": "混合挑戰 19",
+        "en": "Mixed Challenge 19",
+        "zh_CN": "混合挑战 19"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 29,
+      "targetScore": 650,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 520,
+        "experience": 132,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 60,
+      "title": {
+        "zh": "混合挑戰 20",
+        "en": "Mixed Challenge 20",
+        "zh_CN": "混合挑战 20"
+      },
+      "description": {
+        "zh": "結合多種技巧完成挑戰",
+        "en": "Combine multiple skills to complete challenges",
+        "zh_CN": "结合多种技巧完成挑战"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 29,
+      "targetScore": 675,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 535,
+        "experience": 136,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 61,
+      "title": {
+        "zh": "時間挑戰 1",
+        "en": "Time Challenge 1",
+        "zh_CN": "时间挑战 1"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 300,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 120,
+      "rewards": {
+        "coins": 400,
+        "experience": 80,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 62,
+      "title": {
+        "zh": "時間挑戰 2",
+        "en": "Time Challenge 2",
+        "zh_CN": "时间挑战 2"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 25,
+      "targetScore": 330,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 118,
+      "rewards": {
+        "coins": 420,
+        "experience": 85,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 63,
+      "title": {
+        "zh": "時間挑戰 3",
+        "en": "Time Challenge 3",
+        "zh_CN": "时间挑战 3"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 26,
+      "targetScore": 360,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 116,
+      "rewards": {
+        "coins": 440,
+        "experience": 90,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 64,
+      "title": {
+        "zh": "時間挑戰 4",
+        "en": "Time Challenge 4",
+        "zh_CN": "时间挑战 4"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 26,
+      "targetScore": 390,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 114,
+      "rewards": {
+        "coins": 460,
+        "experience": 95,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 65,
+      "title": {
+        "zh": "時間挑戰 5",
+        "en": "Time Challenge 5",
+        "zh_CN": "时间挑战 5"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 27,
+      "targetScore": 420,
+      "targetNumber": 12,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 112,
+      "rewards": {
+        "coins": 480,
+        "experience": 100,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 66,
+      "title": {
+        "zh": "時間挑戰 6",
+        "en": "Time Challenge 6",
+        "zh_CN": "时间挑战 6"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 27,
+      "targetScore": 450,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 110,
+      "rewards": {
+        "coins": 500,
+        "experience": 105,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 67,
+      "title": {
+        "zh": "時間挑戰 7",
+        "en": "Time Challenge 7",
+        "zh_CN": "时间挑战 7"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 28,
+      "targetScore": 480,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 108,
+      "rewards": {
+        "coins": 520,
+        "experience": 110,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 68,
+      "title": {
+        "zh": "時間挑戰 8",
+        "en": "Time Challenge 8",
+        "zh_CN": "时间挑战 8"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 28,
+      "targetScore": 510,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 106,
+      "rewards": {
+        "coins": 540,
+        "experience": 115,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 69,
+      "title": {
+        "zh": "時間挑戰 9",
+        "en": "Time Challenge 9",
+        "zh_CN": "时间挑战 9"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 29,
+      "targetScore": 540,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 104,
+      "rewards": {
+        "coins": 560,
+        "experience": 120,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 70,
+      "title": {
+        "zh": "時間挑戰 10",
+        "en": "Time Challenge 10",
+        "zh_CN": "时间挑战 10"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 4,
+      "gridCols": 4,
+      "maxSteps": 29,
+      "targetScore": 570,
+      "targetNumber": 13,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 102,
+      "rewards": {
+        "coins": 580,
+        "experience": 125,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 71,
+      "title": {
+        "zh": "時間挑戰 11",
+        "en": "Time Challenge 11",
+        "zh_CN": "时间挑战 11"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 30,
+      "targetScore": 600,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 100,
+      "rewards": {
+        "coins": 600,
+        "experience": 130,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 72,
+      "title": {
+        "zh": "時間挑戰 12",
+        "en": "Time Challenge 12",
+        "zh_CN": "时间挑战 12"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 30,
+      "targetScore": 630,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 98,
+      "rewards": {
+        "coins": 620,
+        "experience": 135,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 73,
+      "title": {
+        "zh": "時間挑戰 13",
+        "en": "Time Challenge 13",
+        "zh_CN": "时间挑战 13"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 31,
+      "targetScore": 660,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 96,
+      "rewards": {
+        "coins": 640,
+        "experience": 140,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 74,
+      "title": {
+        "zh": "時間挑戰 14",
+        "en": "Time Challenge 14",
+        "zh_CN": "时间挑战 14"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 31,
+      "targetScore": 690,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 94,
+      "rewards": {
+        "coins": 660,
+        "experience": 145,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 75,
+      "title": {
+        "zh": "時間挑戰 15",
+        "en": "Time Challenge 15",
+        "zh_CN": "时间挑战 15"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 32,
+      "targetScore": 720,
+      "targetNumber": 14,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 92,
+      "rewards": {
+        "coins": 680,
+        "experience": 150,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 76,
+      "title": {
+        "zh": "時間挑戰 16",
+        "en": "Time Challenge 16",
+        "zh_CN": "时间挑战 16"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 32,
+      "targetScore": 750,
+      "targetNumber": 15,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "rewards": {
+        "coins": 700,
+        "experience": 155,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 77,
+      "title": {
+        "zh": "時間挑戰 17",
+        "en": "Time Challenge 17",
+        "zh_CN": "时间挑战 17"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 33,
+      "targetScore": 780,
+      "targetNumber": 15,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 88,
+      "rewards": {
+        "coins": 720,
+        "experience": 160,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 78,
+      "title": {
+        "zh": "時間挑戰 18",
+        "en": "Time Challenge 18",
+        "zh_CN": "时间挑战 18"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 33,
+      "targetScore": 810,
+      "targetNumber": 15,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 86,
+      "rewards": {
+        "coins": 740,
+        "experience": 165,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 79,
+      "title": {
+        "zh": "時間挑戰 19",
+        "en": "Time Challenge 19",
+        "zh_CN": "时间挑战 19"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 34,
+      "targetScore": 840,
+      "targetNumber": 15,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 84,
+      "rewards": {
+        "coins": 760,
+        "experience": 170,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 80,
+      "title": {
+        "zh": "時間挑戰 20",
+        "en": "Time Challenge 20",
+        "zh_CN": "时间挑战 20"
+      },
+      "description": {
+        "zh": "在時間限制內完成目標",
+        "en": "Complete goals within time limit",
+        "zh_CN": "在时间限制内完成目标"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 34,
+      "targetScore": 870,
+      "targetNumber": 15,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 82,
+      "rewards": {
+        "coins": 780,
+        "experience": 175,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "intermediate"
+    },
+    {
+      "levelId": 81,
+      "title": {
+        "zh": "極限挑戰 1",
+        "en": "Ultimate Challenge 1",
+        "zh_CN": "极限挑战 1"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 30,
+      "targetScore": 500,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": null,
+      "minMoves": null,
+      "rewards": {
+        "coins": 600,
+        "experience": 100,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 82,
+      "title": {
+        "zh": "極限挑戰 2",
+        "en": "Ultimate Challenge 2",
+        "zh_CN": "极限挑战 2"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 30,
+      "targetScore": 550,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": null,
+      "minMoves": null,
+      "rewards": {
+        "coins": 630,
+        "experience": 108,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 83,
+      "title": {
+        "zh": "極限挑戰 3",
+        "en": "Ultimate Challenge 3",
+        "zh_CN": "极限挑战 3"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 31,
+      "targetScore": 600,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": null,
+      "minMoves": null,
+      "rewards": {
+        "coins": 660,
+        "experience": 116,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 84,
+      "title": {
+        "zh": "極限挑戰 4",
+        "en": "Ultimate Challenge 4",
+        "zh_CN": "极限挑战 4"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 31,
+      "targetScore": 650,
+      "targetNumber": 16,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": null,
+      "minMoves": null,
+      "rewards": {
+        "coins": 690,
+        "experience": 124,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 85,
+      "title": {
+        "zh": "極限挑戰 5",
+        "en": "Ultimate Challenge 5",
+        "zh_CN": "极限挑战 5"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 32,
+      "targetScore": 700,
+      "targetNumber": 17,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "minMoves": null,
+      "rewards": {
+        "coins": 720,
+        "experience": 132,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 86,
+      "title": {
+        "zh": "極限挑戰 6",
+        "en": "Ultimate Challenge 6",
+        "zh_CN": "极限挑战 6"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 32,
+      "targetScore": 750,
+      "targetNumber": 17,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "minMoves": null,
+      "rewards": {
+        "coins": 750,
+        "experience": 140,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 87,
+      "title": {
+        "zh": "極限挑戰 7",
+        "en": "Ultimate Challenge 7",
+        "zh_CN": "极限挑战 7"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 33,
+      "targetScore": 800,
+      "targetNumber": 17,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "minMoves": null,
+      "rewards": {
+        "coins": 780,
+        "experience": 148,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 88,
+      "title": {
+        "zh": "極限挑戰 8",
+        "en": "Ultimate Challenge 8",
+        "zh_CN": "极限挑战 8"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 33,
+      "targetScore": 850,
+      "targetNumber": 17,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "minMoves": null,
+      "rewards": {
+        "coins": 810,
+        "experience": 156,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 89,
+      "title": {
+        "zh": "極限挑戰 9",
+        "en": "Ultimate Challenge 9",
+        "zh_CN": "极限挑战 9"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 34,
+      "targetScore": 900,
+      "targetNumber": 18,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [],
+      "timeLimit": 90,
+      "minMoves": null,
+      "rewards": {
+        "coins": 840,
+        "experience": 164,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 90,
+      "title": {
+        "zh": "極限挑戰 10",
+        "en": "Ultimate Challenge 10",
+        "zh_CN": "极限挑战 10"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 34,
+      "targetScore": 950,
+      "targetNumber": 18,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 870,
+        "experience": 172,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 91,
+      "title": {
+        "zh": "極限挑戰 11",
+        "en": "Ultimate Challenge 11",
+        "zh_CN": "极限挑战 11"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 35,
+      "targetScore": 1000,
+      "targetNumber": 18,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 900,
+        "experience": 180,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 92,
+      "title": {
+        "zh": "極限挑戰 12",
+        "en": "Ultimate Challenge 12",
+        "zh_CN": "极限挑战 12"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 35,
+      "targetScore": 1050,
+      "targetNumber": 18,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 930,
+        "experience": 188,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 93,
+      "title": {
+        "zh": "極限挑戰 13",
+        "en": "Ultimate Challenge 13",
+        "zh_CN": "极限挑战 13"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 36,
+      "targetScore": 1100,
+      "targetNumber": 19,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 960,
+        "experience": 196,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 94,
+      "title": {
+        "zh": "極限挑戰 14",
+        "en": "Ultimate Challenge 14",
+        "zh_CN": "极限挑战 14"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 36,
+      "targetScore": 1150,
+      "targetNumber": 19,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 990,
+        "experience": 204,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 95,
+      "title": {
+        "zh": "極限挑戰 15",
+        "en": "Ultimate Challenge 15",
+        "zh_CN": "极限挑战 15"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 37,
+      "targetScore": 1200,
+      "targetNumber": 19,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1020,
+        "experience": 212,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 96,
+      "title": {
+        "zh": "極限挑戰 16",
+        "en": "Ultimate Challenge 16",
+        "zh_CN": "极限挑战 16"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 37,
+      "targetScore": 1250,
+      "targetNumber": 19,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1050,
+        "experience": 220,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 97,
+      "title": {
+        "zh": "極限挑戰 17",
+        "en": "Ultimate Challenge 17",
+        "zh_CN": "极限挑战 17"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 38,
+      "targetScore": 1300,
+      "targetNumber": 20,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1080,
+        "experience": 228,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 98,
+      "title": {
+        "zh": "極限挑戰 18",
+        "en": "Ultimate Challenge 18",
+        "zh_CN": "极限挑战 18"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 38,
+      "targetScore": 1350,
+      "targetNumber": 20,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1110,
+        "experience": 236,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 99,
+      "title": {
+        "zh": "極限挑戰 19",
+        "en": "Ultimate Challenge 19",
+        "zh_CN": "极限挑战 19"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 39,
+      "targetScore": 1400,
+      "targetNumber": 20,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1140,
+        "experience": 244,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 100,
+      "title": {
+        "zh": "極限挑戰 20",
+        "en": "Ultimate Challenge 20",
+        "zh_CN": "极限挑战 20"
+      },
+      "description": {
+        "zh": "挑戰遊戲的極限",
+        "en": "Challenge the limits of the game",
+        "zh_CN": "挑战游戏的极限"
+      },
+      "gridRows": 5,
+      "gridCols": 5,
+      "maxSteps": 39,
+      "targetScore": 1450,
+      "targetNumber": 20,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 10,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 90,
+      "minMoves": 20,
+      "rewards": {
+        "coins": 1170,
+        "experience": 252,
+        "unlockItems": [
+          "game_master"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 101,
+      "title": {
+        "zh": "大師關卡 1",
+        "en": "Master Level 1",
+        "zh_CN": "大师关卡 1"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1000,
+      "targetNumber": 20,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1000,
+        "experience": 200,
+        "unlockItems": [
+          "legendary_badge_1"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 102,
+      "title": {
+        "zh": "大師關卡 2",
+        "en": "Master Level 2",
+        "zh_CN": "大师关卡 2"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1100,
+      "targetNumber": 21,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1100,
+        "experience": 220,
+        "unlockItems": [
+          "legendary_badge_2"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 103,
+      "title": {
+        "zh": "大師關卡 3",
+        "en": "Master Level 3",
+        "zh_CN": "大师关卡 3"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1200,
+      "targetNumber": 22,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1200,
+        "experience": 240,
+        "unlockItems": [
+          "legendary_badge_3"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 104,
+      "title": {
+        "zh": "大師關卡 4",
+        "en": "Master Level 4",
+        "zh_CN": "大师关卡 4"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1300,
+      "targetNumber": 23,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1300,
+        "experience": 260,
+        "unlockItems": [
+          "legendary_badge_4"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 105,
+      "title": {
+        "zh": "大師關卡 5",
+        "en": "Master Level 5",
+        "zh_CN": "大师关卡 5"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1400,
+      "targetNumber": 24,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1400,
+        "experience": 280,
+        "unlockItems": [
+          "legendary_badge_5"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 106,
+      "title": {
+        "zh": "大師關卡 6",
+        "en": "Master Level 6",
+        "zh_CN": "大师关卡 6"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1500,
+      "targetNumber": 25,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1500,
+        "experience": 300,
+        "unlockItems": [
+          "legendary_badge_6"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 107,
+      "title": {
+        "zh": "大師關卡 7",
+        "en": "Master Level 7",
+        "zh_CN": "大师关卡 7"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1600,
+      "targetNumber": 26,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1600,
+        "experience": 320,
+        "unlockItems": [
+          "legendary_badge_7"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 108,
+      "title": {
+        "zh": "大師關卡 8",
+        "en": "Master Level 8",
+        "zh_CN": "大师关卡 8"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1700,
+      "targetNumber": 27,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1700,
+        "experience": 340,
+        "unlockItems": [
+          "legendary_badge_8"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 109,
+      "title": {
+        "zh": "大師關卡 9",
+        "en": "Master Level 9",
+        "zh_CN": "大师关卡 9"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1800,
+      "targetNumber": 28,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1800,
+        "experience": 360,
+        "unlockItems": [
+          "legendary_badge_9"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    },
+    {
+      "levelId": 110,
+      "title": {
+        "zh": "大師關卡 10",
+        "en": "Master Level 10",
+        "zh_CN": "大师关卡 10"
+      },
+      "description": {
+        "zh": "只有真正的大師才能通過",
+        "en": "Only true masters can pass",
+        "zh_CN": "只有真正的大师才能通过"
+      },
+      "gridRows": 6,
+      "gridCols": 6,
+      "maxSteps": 40,
+      "targetScore": 1900,
+      "targetNumber": 29,
+      "allowedCardTypes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -1,
+        -2,
+        -3
+      ],
+      "preplacedCards": [
+        {
+          "row": 0,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "cardType": 12,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "cardType": 15,
+          "isLocked": true
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "cardType": 15,
+          "isLocked": true
+        }
+      ],
+      "timeLimit": 60,
+      "minMoves": 25,
+      "forbiddenCells": [
+        8,
+        9,
+        26,
+        27
+      ],
+      "rewards": {
+        "coins": 1900,
+        "experience": 380,
+        "unlockItems": [
+          "legendary_badge_10"
+        ]
+      },
+      "tutorial": {
+        "isTeaching": false,
+        "teachingText": {},
+        "fixedCardSequence": [],
+        "highlightPositions": []
+      },
+      "category": "advanced"
+    }
+  ]
+}

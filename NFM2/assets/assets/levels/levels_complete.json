@@ -1,0 +1,44 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "title": {
+        "zh": "基礎合併",
+        "en": "Basic Merge",
+        "zh_CN": "基础合并"
+      },
+      "description": {
+        "zh": "學習如何合併相同數字",
+        "en": "Learn how to merge same numbers",
+        "zh_CN": "学习如何合并相同数字"
+      },
+      "gridRows": 3,
+      "gridCols": 3,
+      "maxSteps": 20,
+      "targetScore": 50,
+      "targetNumber": null,
+      "allowedCardTypes": [1, 2],
+      "preplacedCards": [],
+      "rewards": {
+        "coins": 10,
+        "experience": 10,
+        "unlockItems": []
+      },
+      "tutorial": {
+        "isTeaching": true,
+        "teachingText": {
+          "zh": "將相同的數字放在一起，它們會自動合併成更大的數字！",
+          "en": "Place same numbers together, they will merge into bigger numbers!",
+          "zh_CN": "将相同的数字放在一起，它们会自动合并成更大的数字！"
+        },
+        "fixedCardSequence": [1, 1, 2, 1, 2, 1],
+        "highlightPositions": [4]
+      },
+      "category": "tutorial",
+      "enableHandSwap": false,
+      "enableStorageArea": false
+    }
+  ],
+  "version": "2.0.0",
+  "lastUpdated": "2024-01-30"
+}
