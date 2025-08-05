@@ -225,6 +225,10 @@
   "@menu_ui_directory_title": {
     "description": "Game directory title"
   },
+  "menu_ui_title": "Game Menu",
+  "@menu_ui_title": {
+    "description": "Game menu title"
+  },
   "menu_ui_subtitle": "Challenge numbers, aim for high score!",
   "@menu_ui_subtitle": {
     "description": "Game subtitle"
@@ -1196,6 +1200,22 @@
   "menu_leaderboard_desc": "View global player rankings and scores",
   "@menu_leaderboard_desc": {
     "description": "Leaderboard button description"
+  },
+  "menu_level_editor": "Level Editor",
+  "@menu_level_editor": {
+    "description": "Level editor button text"
+  },
+  "menu_dev_tools": "Dev Tools",
+  "@menu_dev_tools": {
+    "description": "Developer tools button text"
+  },
+  "menu_dev_tools_desc": "Testing and debugging features",
+  "@menu_dev_tools_desc": {
+    "description": "Developer tools description"
+  },
+  "menu_dev_tools_coming_soon": "Dev tools coming soon",
+  "@menu_dev_tools_coming_soon": {
+    "description": "Developer tools coming soon message"
   },
   "splash_game_title": "Merge Game",
   "@splash_game_title": {

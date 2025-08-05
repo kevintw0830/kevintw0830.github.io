@@ -15,6 +15,7 @@
   "settings_items_allow_duplicate": "允许重复获取道具",
   "settings_storage_check": "是否检查暂存区",
   "menu_ui_directory_title": "目录",
+  "menu_ui_title": "游戏菜单",
   "menu_ui_subtitle": "挑战数字，迈向高分！",
   "menu_mode_level_description": "由浅入深，逐步挑战",
   "menu_mode_challenge_description": "随机拼图，自由组合",
