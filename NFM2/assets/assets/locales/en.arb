@@ -678,19 +678,19 @@
   "@tutorial_hint_random_puzzle": {
     "description": "Challenge mode description hint"
   },
-  "error_code_bomb_card_need_target": "Bomb card needs to click on existing cards to eliminate!",
+  "error_code_bomb_card_need_target": "💣 Bomb card needs to target a card to destroy!",
   "@error_code_bomb_card_need_target": {
     "description": "Bomb card error code message"
   },
-  "error_code_mimic_card_need_empty": "Mimic card needs to be placed in empty area!",
+  "error_code_mimic_card_need_empty": "🎭 Mimic card needs an empty space to work its magic!",
   "@error_code_mimic_card_need_empty": {
     "description": "Mimic card error code message"
   },
-  "error_code_mimic_card_no_adjacent": "Mimic card has no adjacent number cards to mimic!",
+  "error_code_mimic_card_no_adjacent": "🎭 Mimic card needs to be next to number cards to copy them!",
   "@error_code_mimic_card_no_adjacent": {
     "description": "Mimic card error code message"
   },
-  "error_code_nine_grid_need_empty": "Nine-Grid card needs to be placed in empty area!",
+  "error_code_nine_grid_need_empty": "💥 Nine-Grid card needs an empty space to explode!",
   "@error_code_nine_grid_need_empty": {
     "description": "Nine-grid card error code message"
   },
