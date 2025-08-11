@@ -2220,5 +2220,13 @@
   "sync_status_local_message": "Your settings are saved locally, click the button on the right to sync to cloud",
   "migration_management": "Migration Management",
   "migration_development": "Migration management feature is under development",
-  "reload_profile": "Reload Profile"
+  "reload_profile": "Reload Profile",
+  "account_status_not_signed_in": "Not Signed In",
+  "account_not_signed_in_hint": "Sign in to save your progress and access more features",
+  "account_status_anonymous_hint": "Tap to link with Google account for better security",
+  "account_google_bind_success": "Successfully linked with Google account",
+  "account_anonymous_signin": "Sign in as Guest",
+  "account_anonymous_signin_success": "Successfully signed in as guest",
+  "common_cancel": "Cancel",
+  "account_status_google_account": "Google Account"
 }

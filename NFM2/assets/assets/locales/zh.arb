@@ -801,5 +801,13 @@
   "sync_status_local_message": "您的設定儲存在本地，點擊右側按鈕同步到雲端",
   "migration_management": "遷移管理",
   "migration_development": "遷移管理功能開發中",
-  "reload_profile": "重新載入個人資料"
+  "reload_profile": "重新載入個人資料",
+  "account_status_not_signed_in": "尚未登入",
+  "account_not_signed_in_hint": "登入以保存進度並使用更多功能",
+  "account_status_anonymous_hint": "點擊連結 Google 帳號以獲得更好的安全性",
+  "account_google_bind_success": "成功連結 Google 帳號",
+  "account_anonymous_signin": "以訪客身份登入",
+  "account_anonymous_signin_success": "成功以訪客身份登入",
+  "common_cancel": "取消",
+  "account_status_google_account": "Google 帳號"
 }
