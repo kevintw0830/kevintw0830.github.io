@@ -98,6 +98,8 @@
   "game_ui_steps_display": "步數：{steps}",
   "game_ui_level_display": "第 {level} 關",
   "game_ui_challenge_title": "挑戰模式 {rows}x{columns}",
+  "game_ui_infinite_challenge_title": "無限數字 {rows}x{columns}",
+  "game_ui_classic_challenge_title": "經典撲克 {rows}x{columns}",
   "game_ui_level_title": "關卡 {level}: {title}",
   "dialog_message_swap_exhausted": "交換次數已用完！可透過廣告或道具獲取更多次數",
   "dialog_error_message": "錯誤: {error}",

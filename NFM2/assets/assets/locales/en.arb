@@ -325,6 +325,8 @@
     }
   },
   "game_ui_challenge_title": "Challenge Mode {rows}x{columns}",
+  "game_ui_infinite_challenge_title": "Infinite Numbers {rows}x{columns}",
+  "game_ui_classic_challenge_title": "Classic Poker {rows}x{columns}",
   "@game_ui_challenge_title": {
     "description": "Challenge mode title with grid size",
     "placeholders": {

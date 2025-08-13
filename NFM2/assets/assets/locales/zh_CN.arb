@@ -29,6 +29,8 @@
   "game_ui_steps_display": "步数：{steps}",
   "game_ui_level_display": "第 {level} 关",
   "game_ui_challenge_title": "挑战模式 {rows}x{columns}",
+  "game_ui_infinite_challenge_title": "无限数字 {rows}x{columns}",
+  "game_ui_classic_challenge_title": "经典扑克 {rows}x{columns}",
   "game_ui_level_title": "关卡 {level}: {title}",
   "dialog_message_swap_exhausted": "交换次数已用完！可通过广告或道具获取更多次数",
   "dialog_error_message": "错误: {error}",
