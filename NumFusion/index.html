@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/NumFusion/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Fuse matching numbers, trigger epic chains, and climb to the highest level!">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="numfusion">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>numfusion</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase Configuration -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+    import { getAuth } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
+    
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAnmrSr1PIHGIgTabH2eCMN2747smvF2ks",
+      authDomain: "numfusion-d548b.firebaseapp.com",
+      projectId: "numfusion-d548b",
+      storageBucket: "numfusion-d548b.firebasestorage.app",
+      messagingSenderId: "861140032618",
+      appId: "1:861140032618:web:52f15d9d107bbac34d7e13",
+      measurementId: "G-RWKDKSW5E5"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    
+    // Make Firebase available globally
+    window.firebase = { app, auth, db };
+  </script>
+
+  <!-- Google Sign-In Client ID -->
+  <meta name="google-signin-client_id" content="861140032618-k8v9j7h3q5m2n6p8r4s1t7u9v2w5x8y0.apps.googleusercontent.com">
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "description": "NumFusion 關卡配置文件",
+  "levels": [
+    {
+      "id": "tutorial_01",
+      "name": "初次合併",
+      "description": "學習基本的卡牌合併機制",
+      "chapter": "第一章：基礎教學",
+      "order_in_chapter": 1,
+      "difficulty": "tutorial",
+      "objective": {
+        "type": "create_number",
+        "target_value": 3,
+        "description": "創造數字 3"
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 10},
+        "two_stars": {"type": "score", "value": 20},
+        "three_stars": {"type": "score", "value": 30}
+      },
+      "grid_size": 3,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": 10,
+      "prerequisites": [],
+      "extra_config": {
+        "tutorial_tips": [
+          "將兩張 1 放在相鄰位置",
+          "它們會合併成數字 2",
+          "再將 2 與另一張 2 合併成 3"
+        ]
+      }
+    },
+    {
+      "id": "tutorial_02", 
+      "name": "連鎖合併",
+      "description": "體驗連鎖合併的威力",
+      "chapter": "第一章：基礎教學",
+      "order_in_chapter": 2,
+      "difficulty": "tutorial",
+      "objective": {
+        "type": "create_number",
+        "target_value": 4,
+        "description": "創造數字 4"
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 30},
+        "two_stars": {"type": "score", "value": 50},
+        "three_stars": {"type": "score", "value": 80}
+      },
+      "grid_size": 3,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": 8,
+      "prerequisites": ["tutorial_01"],
+      "extra_config": {
+        "tutorial_tips": [
+          "將四張 1 排列成十字型",
+          "中間放置一張 1 觸發連鎖",
+          "觀察連鎖合併如何創造更高數字"
+        ]
+      }
+    },
+    {
+      "id": "tutorial_03",
+      "name": "策略布局", 
+      "description": "學習卡牌放置的策略性",
+      "chapter": "第一章：基礎教學",
+      "order_in_chapter": 3,
+      "difficulty": "easy",
+      "objective": {
+        "type": "score",
+        "target_value": 100,
+        "description": "達到 100 分"
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 100},
+        "two_stars": {"type": "score", "value": 150},
+        "three_stars": {"type": "score", "value": 200}
+      },
+      "grid_size": 4,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 3, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": 15,
+      "prerequisites": ["tutorial_02"]
+    },
+    {
+      "id": "challenge_01",
+      "name": "步數挑戰",
+      "description": "在限定步數內達成目標",
+      "chapter": "第二章：策略進階", 
+      "order_in_chapter": 1,
+      "difficulty": "medium",
+      "objective": {
+        "type": "steps",
+        "target_value": 5,
+        "description": "在 5 步內達到 80 分",
+        "extra_params": {
+          "target_score": 80
+        }
+      },
+      "rating": {
+        "one_star": {"type": "steps", "value": 5},
+        "two_stars": {"type": "steps", "value": 4},
+        "three_stars": {"type": "steps", "value": 3}
+      },
+      "grid_size": 4,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": 5,
+      "prerequisites": ["tutorial_03"]
+    },
+    {
+      "id": "special_01",
+      "name": "炸彈初體驗",
+      "description": "學習使用炸彈卡的基本策略",
+      "chapter": "第三章：特殊卡牌",
+      "order_in_chapter": 1,
+      "difficulty": "medium",
+      "objective": {
+        "type": "use_special_cards",
+        "target_value": 1,
+        "description": "使用炸彈卡清除阻礙",
+        "extra_params": {
+          "required_special_card": "bomb",
+          "target_score": 60
+        }
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 60},
+        "two_stars": {"type": "score", "value": 90},
+        "three_stars": {"type": "score", "value": 120}
+      },
+      "grid_size": 4,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 5, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 0, "type": "bomb", "suit": "B"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": true,
+      "special_card_config": {
+        "bomb_enabled": true,
+        "nine_grid_enabled": false,
+        "mimic_enabled": false
+      },
+      "max_steps": 12,
+      "prerequisites": ["challenge_01"],
+      "extra_config": {
+        "tutorial_tips": [
+          "中間的數字 5 阻礙了合併",
+          "使用炸彈卡清除它",
+          "然後合併周圍的小數字"
+        ]
+      }
+    },
+    {
+      "id": "combo_01",
+      "name": "完美組合",
+      "description": "組合多種技巧達成高分",
+      "chapter": "第四章：大師挑戰",
+      "order_in_chapter": 1,
+      "difficulty": "hard",
+      "objective": {
+        "type": "combination",
+        "target_value": 3,
+        "description": "達到 200 分並創造數字 6",
+        "extra_params": {
+          "sub_objectives": [
+            {
+              "type": "score",
+              "target_value": 200,
+              "description": "達到 200 分"
+            },
+            {
+              "type": "create_number", 
+              "target_value": 6,
+              "description": "創造數字 6"
+            },
+            {
+              "type": "steps",
+              "target_value": 20,
+              "description": "在 20 步內完成"
+            }
+          ]
+        }
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 200},
+        "two_stars": {"type": "score", "value": 300},
+        "three_stars": {"type": "score", "value": 400}
+      },
+      "grid_size": 5,
+      "card_strategy": "hybrid",
+      "fixed_card_sequence": [
+        {"value": 3, "type": "number", "suit": "♠"},
+        {"value": 3, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": true,
+      "special_card_config": {
+        "bomb_enabled": true,
+        "nine_grid_enabled": true,
+        "mimic_enabled": true,
+        "special_card_probability": 0.2
+      },
+      "max_steps": 20,
+      "prerequisites": ["special_01"]
+    }
+  ]
+}
