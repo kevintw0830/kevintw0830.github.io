@@ -3,11 +3,82 @@
   "description": "NumFusion 關卡配置文件",
   "levels": [
     {
+      "id": "tutorial_00",
+      "name": "合併入門",
+      "description": "最簡單的合併：只有兩張1，合併它們成為2",
+      "chapter": "第一章：基礎教學",
+      "order_in_chapter": 0,
+      "difficulty": "tutorial",
+      "objective": {
+        "type": "create_number",
+        "target_value": 2,
+        "description": "創造數字 2"
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 10},
+        "two_stars": {"type": "score", "value": 15},
+        "three_stars": {"type": "score", "value": 20}
+      },
+      "grid_size": 3,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": null,
+      "prerequisites": [],
+      "extra_config": {
+        "tutorial_tips": [
+          "這是最基礎的合併教學",
+          "將兩張 1 放在相鄰位置",
+          "它們會合併成數字 2"
+        ]
+      }
+    },
+    {
       "id": "tutorial_01",
+      "name": "序列合併",
+      "description": "使用固定序列1,2,3,4,1創造數字5",
+      "chapter": "第一章：基礎教學",
+      "order_in_chapter": 1,
+      "difficulty": "tutorial",
+      "objective": {
+        "type": "create_number",
+        "target_value": 5,
+        "description": "創造數字 5"
+      },
+      "rating": {
+        "one_star": {"type": "score", "value": 20},
+        "two_stars": {"type": "score", "value": 30},
+        "three_stars": {"type": "score", "value": 50}
+      },
+      "grid_size": 3,
+      "card_strategy": "fixed",
+      "fixed_card_sequence": [
+        {"value": 1, "type": "number", "suit": "♠"},
+        {"value": 2, "type": "number", "suit": "♠"},
+        {"value": 3, "type": "number", "suit": "♠"},
+        {"value": 4, "type": "number", "suit": "♠"},
+        {"value": 1, "type": "number", "suit": "♠"}
+      ],
+      "allow_special_cards": false,
+      "max_steps": null,
+      "prerequisites": ["tutorial_00"],
+      "extra_config": {
+        "tutorial_tips": [
+          "固定序列合併練習",
+          "按順序使用：1→2→3→4→1",
+          "巧妙安排位置創造數字 5"
+        ]
+      }
+    },
+    {
+      "id": "tutorial_02",
       "name": "初次合併",
       "description": "學習基本的卡牌合併機制",
       "chapter": "第一章：基礎教學",
-      "order_in_chapter": 1,
+      "order_in_chapter": 2,
       "difficulty": "tutorial",
       "objective": {
         "type": "create_number",
@@ -29,7 +100,7 @@
       ],
       "allow_special_cards": false,
       "max_steps": 10,
-      "prerequisites": [],
+      "prerequisites": ["tutorial_01"],
       "extra_config": {
         "tutorial_tips": [
           "將兩張 1 放在相鄰位置",
@@ -39,11 +110,11 @@
       }
     },
     {
-      "id": "tutorial_02", 
+      "id": "tutorial_03_chain", 
       "name": "連鎖合併",
       "description": "體驗連鎖合併的威力",
       "chapter": "第一章：基礎教學",
-      "order_in_chapter": 2,
+      "order_in_chapter": 3,
       "difficulty": "tutorial",
       "objective": {
         "type": "create_number",
@@ -66,7 +137,7 @@
       ],
       "allow_special_cards": false,
       "max_steps": 8,
-      "prerequisites": ["tutorial_01"],
+      "prerequisites": ["tutorial_02"],
       "extra_config": {
         "tutorial_tips": [
           "將四張 1 排列成十字型",
@@ -76,11 +147,11 @@
       }
     },
     {
-      "id": "tutorial_03",
+      "id": "tutorial_04",
       "name": "策略布局", 
       "description": "學習卡牌放置的策略性",
       "chapter": "第一章：基礎教學",
-      "order_in_chapter": 3,
+      "order_in_chapter": 4,
       "difficulty": "easy",
       "objective": {
         "type": "score",
@@ -106,7 +177,7 @@
       ],
       "allow_special_cards": false,
       "max_steps": 15,
-      "prerequisites": ["tutorial_02"]
+      "prerequisites": ["tutorial_03_chain"]
     },
     {
       "id": "challenge_01",
@@ -116,7 +187,7 @@
       "order_in_chapter": 1,
       "difficulty": "medium",
       "objective": {
-        "type": "steps",
+        "type": "steps_challenge",
         "target_value": 5,
         "description": "在 5 步內達到 80 分",
         "extra_params": {
@@ -139,7 +210,7 @@
       ],
       "allow_special_cards": false,
       "max_steps": 5,
-      "prerequisites": ["tutorial_03"]
+      "prerequisites": ["tutorial_04"]
     },
     {
       "id": "special_01",
@@ -214,7 +285,7 @@
               "description": "創造數字 6"
             },
             {
-              "type": "steps",
+              "type": "steps_challenge",
               "target_value": 20,
               "description": "在 20 步內完成"
             }
