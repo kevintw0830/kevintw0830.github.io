@@ -1,0 +1,30 @@
+{
+  "ads": {
+    "banner": {
+      "enabled": true,
+      "placements": ["home", "shop"],
+      "refreshSec": 60
+    },
+    "interstitial": {
+      "enabled": true,
+      "cooldownSec": 120,
+      "maxPerSession": 5,
+      "triggers": ["stage_end"]
+    },
+    "rewarded": {
+      "enabled": true,
+      "dailyLimit": 5,
+      "rewards": {
+        "extra_life": 1,
+        "double_coin": 50
+      }
+    }
+  },
+  "billing": {
+    "products": [
+      { "id": "consumable_coin_100", "type": "consumable", "iosEnabled": true, "androidEnabled": true },
+      { "id": "nonconsumable_remove_ads", "type": "non_consumable", "iosEnabled": true, "androidEnabled": true },
+      { "id": "subscription_premium_monthly", "type": "subscription", "iosEnabled": true, "androidEnabled": true }
+    ]
+  }
+}
