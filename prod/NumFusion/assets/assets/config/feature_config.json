@@ -1,22 +1,25 @@
 {
   "ads": {
+    "disabled": false,
     "banner": {
       "enabled": true,
-      "placements": ["home", "shop"],
+      "placements": ["menu", "gridSelection", "gameOver"],
       "refreshSec": 60
     },
     "interstitial": {
       "enabled": true,
       "cooldownSec": 120,
       "maxPerSession": 5,
-      "triggers": ["stage_end"]
+      "triggers": ["stage_end", "game_end"],
+      "gameEndFrequency": 3
     },
     "rewarded": {
       "enabled": true,
-      "dailyLimit": 5,
+      "dailyLimit": 10,
       "rewards": {
         "extra_life": 1,
-        "double_coin": 50
+        "double_coin": 50,
+        "watch_ad_reward": 30
       }
     }
   },
