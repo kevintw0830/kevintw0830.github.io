@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>雙色融合 Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="play-area" aria-label="雙色融合遊戲">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Color Merge</p>
+            <h1>雙色融合</h1>
+          </div>
+          <div class="top-tools">
+            <div class="color-ring" aria-label="顏色關係">
+              <span class="ring-dot red"></span>
+              <span class="ring-dot yellow"></span>
+              <span class="ring-dot green"></span>
+              <span class="ring-dot cyan"></span>
+              <span class="ring-dot blue"></span>
+              <span class="ring-dot magenta"></span>
+            </div>
+            <div class="stats" aria-label="遊戲狀態">
+              <div>
+                <span>分數</span>
+                <strong id="score">0</strong>
+              </div>
+              <div>
+                <span>本次消除</span>
+                <strong id="changed">0</strong>
+              </div>
+              <div>
+                <span>最大消除</span>
+                <strong id="best">0</strong>
+              </div>
+              <div class="goal-stat" id="goal-stat">
+                <span>本局目標</span>
+                <strong id="goal">黃 0/12</strong>
+                <i id="goal-meter" aria-hidden="true"></i>
+              </div>
+              <div>
+                <span>可融合</span>
+                <strong id="clear-size">5連</strong>
+              </div>
+              <div>
+                <span>連鎖</span>
+                <strong id="combo">x1</strong>
+              </div>
+            </div>
+            <div class="actions">
+              <button id="swap" type="button" aria-label="交換">⇄ 0</button>
+              <button id="hint" type="button" aria-label="提示">?</button>
+              <button id="reset" type="button" aria-label="重開">↻</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="board-wrap">
+          <div class="board-frame">
+            <div id="board" class="board" role="grid" aria-label="融合棋盤"></div>
+          </div>
+        </div>
+
+        <div id="result-modal" class="result-modal hidden" role="dialog" aria-modal="true">
+          <div class="result-box">
+            <p class="result-kicker" id="result-kicker">Result</p>
+            <h2 id="result-title">通關</h2>
+            <p id="result-detail">本局結束。</p>
+            <button id="result-reset" type="button">再玩一次</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
